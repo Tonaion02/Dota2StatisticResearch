@@ -1,0 +1,88 @@
+Quella che segue è un analisi statistica sul gioco multiplayer Dota2, un videogioco uscito nel 2013 sviluppato da Valve. Durante questa analisi si è cercato di indagare lo stato del gioco attraverso le varie research questions. Le varie research question ci permetteranno di fare chiarezza per quanto riguarda il bilanciamento del gioco e di determinare se il nostro studio è rappresentativo o meno rispetto alla popolazione.
+\subsection{Gameplay}
+Di seguito sono introdotti una serie di aspetti del gioco che saranno utili per dare un contesto e comprendere meglio il resto dell'analisi statistica. \\ 
+In ciascuna partita di Dota2 due team(Radiant e Dire) formati da 5 giocatori si scontrano all'interno della mappa di gioco. La mappa in questione è suddivisa in due parti, ciascuna assegnata e difesa da uno dei due team. \\
+Ciascun team avrà l'obbiettivo di distruggere l'Ancient nemico, ovvero una struttura localizzata al centro della base del nemico. Per riuscire nell'intento è però necessario riuscire a ottenere un vantaggio tattico e statistico sul team avversario. 
+Per riuscire a guadagnare il vantaggio statistico è necessario raccogliere esperienza e migliorare il proprio personaggio attraverso degli oggetti. Tali oggetti sono acquistabili attraverso una moneta di gioco che può essere acquisita sconfiggendo i giocatori del team avversario durante la partita oppure conquistando degli obbiettivi. \\
+In Dota2 esistono poi varie modalità di gioco, in cui alcune caratteristiche del gioco cambiano. Per ciascuna modalità di gioco si può scegliere poi di fare una partita ranked oppure unranked. La differenza è che in una partita ranked è possibile guadagnare o perdere punti rango rispettivamente se si vince o si perde, mentre nelle unranked questo non avviene. \\
+Ciascun giocatore di ciascuno dei team può scegliere l'hero(personaggio giocabile con abilità e caratteristiche uniche) da giocare. Tale scelta viene effettuata durante una fase preliminare alla partita, dove possono essere effettuate le prime scelte tattiche e dove ci si può organizzare con i membri del proprio team.
+
+\subsection{Research Questions}
+Le research questions che sono state affrontate durante questo studio statistico sono le seguenti:
+\begin{itemize}
+	\item {RQ1: Il winrate varia notevolmente tra gli Hero?}
+	\item {RQ2: Il winrate e pickrate variano tra ranked e unranked?}
+	\item {RQ3: I winrate dei Radiant e dei Dire sono differenti?}
+	\item {RQ4: Esiste una correlazione tra pickrate e winrate? }
+	\item {RQ5: Esistono degli attributi più incisivi all'interno del gioco?}
+	\item {RQ6: Esistono configurazioni dei team più convenienti?}
+	\item {RQ7: Qual'è il rank delle istanze del dataset?}
+\end{itemize}
+
+\subsection{Specifica del dataset}
+Il dataset che è stato utilizzato per effettuare il seguente studio è un insieme di partite al gioco in cui sono presenti i seguenti campi:
+\begin{itemize}
+    \item gamemode: Viene riportato l'identificativo numerico della modalità di gioco della partita.
+    \item gametype: Viene riportato se la partita è stata effettuata in modalità ranked o in modalità unranked attraverso un identificativo numerico.
+    \item win: Viene riportato 1 o -1 a seconda di quale delle due squadre ha vinto la partita.
+    \item una colonna per ciascuno degli Hero presenti nel gioco(il nome di ciascuna colonna è hero con concatenato l'identificativo numerico del Hero): nella colonna è presente 0 se l'Hero non è stato giocato da nessuno dei due team, è presente 1 o -1 invece se è stato giocato rispettivamente da uno dei due team. 
+\end{itemize}
+Durante le fasi successive dello studio, il seguente dataset è stato arricchito dalle informazioni informazioni degli Hero che sono state recuperate direttamente dal sito ufficiale di Dota2~\cite{Dota2OfficialSite} attraverso gli identificativi degli eroi lasciati all'interno di un file json fornito insieme al dataset. \\
+\subsection{Pulizia preliminare del dataset e selezione dei dati}
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=0.65]{./Figure/clean_dataset/frequenze_gamemode_row.svg}
+\caption{Nella seguente figura è riportata la frequenza delle gamemode}
+\label{frequenze_gamemode_row}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=0.65]{./Figure/clean_dataset/frequenze_gametype_row.svg}
+\caption{Nella seguente figura è riportata la frequenza dei gametype}
+\label{frequenze_gametype_row}
+\end{multicols}
+\end{figure} 
+Il dataset originale necessitava per poter essere analizzato correttamente una fase preliminare di pulizia. Durante questa fase iniziale, ci siamo resi conto che la maggior parte delle partite riguardavano in realtà una sola gamemode e due sole altre gametype, come mostrato dai seguenti grafici~\ref{frequenze_gamemode_row} ~\ref{frequenze_gametype_row}.
+\begin{figure}[htbp]
+\centering
+% \hspace*{-0.15\linewidth}
+\includesvg[scale=0.72]{./Figure/clean_dataset/frequenze_gamemode_gametype_clean.svg}
+\caption{}
+\label{frequenze_gamemode_gametype_clean}
+\end{figure} 
+Si è deciso quindi di considerare solamente la gamemode 2 e solamente le gametype 2 e 3. Per quanto concerne tutte le altre gamemode, si è ritenuto necessario eliminare quei dati dal dataset, in quanto non avevamo abbastanza istanze per determinare qualcosa rispetto a quelle gamemode. Per quanto riguarda la gametype 1, c'era un numero molto basso di istanze per queste partite, e sono state quindi eliminate. \\
+Il nostro studio si è ristretto solamente a una modalità di gioco e alle gametype 2 e 3 che abbiamo poi successivamente mappato a partite classificate e non classificate attraverso le informazioni recuperate sul sito di Dota2. \\
+\subsection{Generazione del dataset sintetico}
+Di seguito è riportata la tecnica utilizzata per generare il dataset.
+Il Large Language Model che è stato utilizzato è Chat-Gpt 4.0. L'approccio utilizzato inizialmente utilizzato era quello di dare in input al LLM una porzione del dataset per far si che si allenasse su di esso per poi fargli generare le istanze sintetiche. L'elevato numero di colonne(147 dopo aver integrato i nuovi dati) e di istanze del dataset(5500) portavano LLM a rifiutare il dataset. \\
+Pur utilizzando altri LLM come Gemini e/o diminuendo il numero di istanze fino a 500 il risultato non è cambiato. Di conseguenza si è deciso di utilizzare Chat-Gpt con un approccio differente. L'approccio utilizzato è basato sulla Data Genearation con Feedback, che si basa su 4 passaggi:
+\begin{itemize}
+\item Fornire il contesto al LLM dei dati che devono essere generati.
+\item Fornire degli esempi di input.
+\item Richiedere la generazione di nuovi dati.
+\item Fornire informazioni di feedback riguardanti i dati generati per il miglioramento nella generazione dei dati.
+\end{itemize}  
+Nel tentativo di generare le istanze del dataset nel modo migliore possibile il valore di vittoria non è stato fatto generare da Chat-Gpt. Chat-Gpt non sarebbe stato infatti in grado di generare questo valore, si è deciso quindi di tentare l'utilizzo di modelli di LLM e reti neurali sulle istanze del dataset originale per effettuare successivamente la predizione del valore di vittoria. \\
+Il risultato migliore tra tutti che è stato ottenuto attraverso un algoritmo di classificazione random forest. Il valore di accuratezza raggiunto è 0.55. Si è ritenuto questo valore accetabile dato che all'interno del dataset originale mancano le informazioni che avrebbero permesso di predirre in maniera più efficace il valore della colonna win(come ad esempio le informazioni che riguardano l'andamento dei giocatori).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

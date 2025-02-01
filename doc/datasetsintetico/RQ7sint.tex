@@ -1,0 +1,18 @@
+Infine si procede a rispondere alla research question 7 anche per il dataset sintetico, all'interno della quale si cercherà di determinare se l’elo per le partite ranked e unranked segue o meno una distribuzione nota e se questa distribuzione individuata è riconducibile dal campione alla popolazione. Come per il dataset originale il valore dell’elo di ogni partita del dataset sintetico è stato calcolato attraverso l’utilizzo della medesima formula utilizzata per il dataset originale. \\
+All’interno delle seguenti figure () sono presenti i grafici delle distribuzioni dell'elo, rispettivamente per le partite ranked e unranked. Proprio come nel caso del dataset originale entrambi i grafici ci suggeriscono che l’elo abbia una distribuzione normale. Quindi per determinare ciò abbiamo utilizzato il test del chi-quadro per verificare se la distribuzione è effettivamente una normale o meno.
+Nel caso delle partite ranked il valore di chi-quadro è 15.16329 mentre per le partite unranked è 9.958115, dato che in entrambi i casi il valore non rientra nell’intervallo di accettazione del test del chi-quadro(0.05063562, 7.377759) si può affermare che l’elo sia per le partite ranked che per quelle unranked non segue una distribuzione normale. \\
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.7]{./FigureSintetico/distribuzione_elo_ranked_sintetico.svg}
+\caption{Nella seguente figura è presente un grafico della distribuzione dell'elo calcolato all'interno delle partite ranked}
+\label{distribuzione_elo_ranked_sintetico}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.7]{./FigureSintetico/distribuzione_elo_unranked_sintetico.svg}
+\caption{Nella seguente figura è presente un grafico della distribuzione dell'elo calcolato all'interno delle partite unranked}
+\label{distribuzione_elo_unranked_sintetico}
+\end{multicols}
+\end{figure} 
+Di conseguenza, anche se la forma della distribuzione non sembra seguire una distribuzione di Poisson, si è comunque deciso di applicare il test del chi-quadro per verificarlo. Nel caso delle partite ranked, il valore del chi-quadro è 397.6751, mentre per le partite unranked è 879.4748. Poiché questi valori non rientrano minimamente nell’intervallo di accettazione del test, si può confermare che le osservazioni fatte sulle distribuzioni dell’Elo sono corrette. \\
+Si conclude quindi che entrambe le distribuzioni non seguono alcuna distribuzione nota, il che impedisce di proseguire lo studio e di determinare il valore medio dell’Elo della popolazione per il dataset sintetico. 

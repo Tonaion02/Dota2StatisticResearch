@@ -1,0 +1,113 @@
+Anti Mage: Meepo, Huskar, Phantom Assassin, Axe, Troll Warlord, Lone Druid, Slardar, Kez, Terrorblade, Shadow Fiend
+Axe: Timbersaw, Outworld Destroyer, Leshrac, Primal Beast, Batrider, Venomancer, Necrophos, Doom, Witch Doctor, Dragon Knight
+Bane: Chaos Knight, Meepo, Abaddon, Chen, Slark, Arc Warden, Naga Siren, Visage, Spectre, Silencer
+Bloodseeker: Medusa, Juggernaut, Oracle, Nature's Prophet, Storm Spirit, Chen, Legion Commander, Enchantress, Bristleback, Viper
+Crystal Maiden: Rubick, Dawnbreaker, Pudge, Enigma, Juggernaut, Bristleback, Drow Ranger, Pangolier, Pugna, Puck
+Drow Ranger: Phantom Lancer, Mars, Earth Spirit, Primal Beast, Pudge, Chaos Knight, Faceless Void, Spectre, Centaur Warrunner, Dark Seer
+Earthshaker: Templar Assassin, Huskar, Clinkz, Sniper, Viper, Bristleback, Gyrocopter, Windranger, Batrider, Clockwerk
+Juggernaut: Nature's Prophet, Visage, Riki, Morphling, Windranger, Clinkz, Chen, Broodmother, Void Spirit, Weaver
+Mirana: Meepo, Chen, Mars, Spectre, Puck, Axe, Wraith King, Luna, Centaur Warrunner, Bounty Hunter
+Morphling: Nyx Assassin, Doom, Lina, Anti-Mage, Axe, Rubick, Beastmaster, Lion, Earthshaker, Ancient Apparition
+Shadow Fiend: Terrorblade, Medusa, Windranger, Dragon Knight, Kunkka, Phantom Lancer, Templar Assassin, Luna, Sniper, Zeus
+Phantom Lancer: Sand King, Warlock, Necrophos, Timbersaw, Crystal Maiden, Underlord, Axe, Lina, Puck, Anti-Mage
+Puck: Night Stalker, Broodmother, Riki, Lone Druid, Spectre, Silencer, Dragon Knight, Nyx Assassin, Huskar, Muerta
+Pudge: Batrider, Marci, Chen, Ursa, Beastmaster, Magnus, Monkey King, Pangolier, Timbersaw, Tusk
+Razor: Morphling, Queen of Pain, Anti-Mage, Primal Beast, Ember Spirit, Weaver, Bristleback, Bloodseeker, Storm Spirit, Mirana
+Sand King: Zeus, Bristleback, Pugna, Phoenix, Centaur Warrunner, Juggernaut, Queen of Pain, Lifestealer, Underlord, Ember Spirit
+Storm Spirit: Lone Druid, Meepo, Anti-Mage, Riki, Pugna, Puck, Troll Warlord, Oracle, Silencer, Naga Siren
+Sven: Bristleback, Troll Warlord, Wraith King, Templar Assassin, Dragon Knight, Dark Willow, Slardar, Ogre Magi, Windranger, Treant Protector
+Tiny: Necrophos, Huskar, Lifestealer, Viper, Timbersaw, Undying, Venomancer, Phoenix, Brewmaster, Underlord
+Vengeful Spirit: Phantom Lancer, Meepo, Chaos Knight, Terrorblade, Naga Siren, Winter Wyvern, Omniknight, Tidehunter, Sand King, Dark Willow
+Windranger: Centaur Warrunner, Axe, Faceless Void, Mars, Spectre, Clockwerk, Tiny, Queen of Pain, Bristleback, Luna
+Zeus: Chen, Meepo, Broodmother, Lycan, Storm Spirit, Ember Spirit, Anti-Mage, Huskar, Spectre, Chaos Knight
+Kunkka: Juggernaut, Lifestealer, Venomancer, Timbersaw, Pangolier, Ember Spirit, Necrophos, Weaver, Undying, Slardar
+Monkey King: Muerta, Leshrac, Batrider, Techies, Windranger, Phoenix, Zeus, Invoker, Viper, Ancient Apparition
+Lina: Templar Assassin, Batrider, Windranger, Clinkz, Ember Spirit, Bristleback, Faceless Void, Sven, Mirana, Kunkka
+Lion: Beastmaster, Templar Assassin, Rubick, Chen, Dazzle, Razor, Nature's Prophet, Windranger, Batrider, Gyrocopter
+Shadow Shaman: Phantom Lancer, Naga Siren, Silencer, Meepo, Medusa, Lone Druid, Luna, Dark Seer, Sand King, Spectre
+Slardar: Luna, Troll Warlord, Phantom Lancer, Medusa, Tidehunter, Drow Ranger, Muerta, Terrorblade, Juggernaut, Shadow Shaman
+Tidehunter: Chen, Razor, Omniknight, Death Prophet, Juggernaut, Elder Titan, Leshrac, Huskar, Pugna, Outworld Destroyer
+Witch Doctor: Medusa, Bristleback, Broodmother, Riki, Faceless Void, Windranger, Templar Assassin, Chen, Muerta, Puck
+Lich: Shadow Demon, Pugna, Brewmaster, Pangolier, Keeper of the Light, Bristleback, Phantom Lancer, Weaver, Ringmaster, Chen
+Riki: Bristleback, Naga Siren, Spectre, Underlord, Drow Ranger, Tiny, Zeus, Bloodseeker, Jakiro, Luna
+Enigma: Bristleback, Rubick, Medusa, Sniper, Gyrocopter, Kunkka, Warlock, Silencer, Alchemist, Wraith King
+Tinker: Naga Siren, Leshrac, Anti-Mage, Death Prophet, Enigma, Omniknight, Sven, Pudge, Chaos Knight, Juggernaut
+Sniper: Primal Beast, Pudge, Morphling, Spectre, Earth Spirit, Storm Spirit, Centaur Warrunner, Mars, Nyx Assassin, Windranger
+Necrophos: Ancient Apparition, Doom, Skywrath Mage, Death Prophet, Muerta, Leshrac, Arc Warden, Lina, Oracle, Pugna
+Warlock: Bristleback, Sand King, Tidehunter, Pangolier, Weaver, Phoenix, Phantom Assassin, Snapfire, Shadow Fiend, Morphling
+Beastmaster: Chen, Medusa, Keeper of the Light, Sand King, Bristleback, Gyrocopter, Warlock, Clinkz, Dark Seer, Earthshaker
+Queen Of Pain: Ember Spirit, Medusa, Meepo, Huskar, Puck, Faceless Void, Lone Druid, Void Spirit, Templar Assassin, Legion Commander
+Venomancer: Phantom Lancer, Storm Spirit, Weaver, Mirana, Slark, Sniper, Legion Commander, Windranger, Tinker, Enigma
+Faceless Void: Enchantress, Meepo, Silencer, Legion Commander, Spectre, Chaos Knight, Huskar, Night Stalker, Naga Siren, Slardar
+Wraith King: Phantom Lancer, Underlord, Naga Siren, Meepo, Lone Druid, Necrophos, Warlock, Slark, Alchemist, Phoenix
+Death Prophet: Ancient Apparition, Clinkz, Medusa, Windranger, Drow Ranger, Mirana, Razor, Chaos Knight, Slardar, Bristleback
+Phantom Assassin: Axe, Primal Beast, Templar Assassin, Phoenix, Dawnbreaker, Pudge, Luna, Earth Spirit, Timbersaw, Morphling
+Pugna: Pudge, Huskar, Chaos Knight, Sven, Anti-Mage, Sniper, Spirit Breaker, Medusa, Earthshaker, Lone Druid
+Templar Assassin: Phantom Lancer, Batrider, Troll Warlord, Phoenix, Naga Siren, Leshrac, Terrorblade, Dark Seer, Winter Wyvern, Sniper
+Viper: Phantom Lancer, Chaos Knight, Naga Siren, Dark Seer, Morphling, Windranger, Terrorblade, Brewmaster, Lycan, Pudge
+Luna: Bristleback, Medusa, Lich, Dawnbreaker, Rubick, Spectre, Dark Seer, Warlock, Mars, Underlord
+Dragon Knight: Viper, Necrophos, Venomancer, Slark, Underlord, Doom, Huskar, Phoenix, Ringmaster, Ancient Apparition
+Dazzle: Ancient Apparition, Tidehunter, Axe, Venomancer, Weaver, Riki, Slark, Pangolier, Gyrocopter, Razor
+Clockwerk: Huskar, Meepo, Beastmaster, Chen, Terrorblade, Ember Spirit, Phantom Lancer, Anti-Mage, Storm Spirit, Visage
+Leshrac: Undying, Outworld Destroyer, Bristleback, Ancient Apparition, Death Prophet, Drow Ranger, Clinkz, Ursa, Queen of Pain, Medusa
+Natures Prophet: Spectre, Primal Beast, Leshrac, Treant Protector, Phantom Assassin, Luna, Broodmother, Morphling, Batrider, Dawnbreaker
+Lifestealer: Broodmother, Chen, Enigma, Bristleback, Nature's Prophet, Razor, Clinkz, Slardar, Death Prophet, Io
+Dark Seer: Bloodseeker, Oracle, Ursa, Sven, Legion Commander, Enchantress, Earthshaker, Warlock, Faceless Void, Timbersaw
+Clinkz: Naga Siren, Phantom Lancer, Spectre, Broodmother, Bristleback, Meepo, Wraith King, Arc Warden, Morphling, Enchantress
+Omniknight: Doom, Ancient Apparition, Undying, Luna, Outworld Destroyer, Shadow Demon, Treant Protector, Leshrac, Slardar, Witch Doctor
+Enchantress: Phantom Assassin, Chen, Crystal Maiden, Mars, Marci, Pudge, Chaos Knight, Slark, Meepo, Ogre Magi
+Huskar: Viper, Ancient Apparition, Chaos Knight, Necrophos, Naga Siren, Phantom Assassin, Windranger, Phantom Lancer, Timbersaw, Bristleback
+Night Stalker: Naga Siren, Broodmother, Huskar, Arc Warden, Chen, Lone Druid, Beastmaster, Meepo, Lycan, Marci
+Broodmother: Earthshaker, Naga Siren, Axe, Sven, Spirit Breaker, Terrorblade, Dark Seer, Crystal Maiden, Tiny, Slardar
+Bounty Hunter: Naga Siren, Meepo, Slark, Shadow Shaman, Abaddon, Huskar, Phantom Lancer, Chaos Knight, Legion Commander, Tinker
+Weaver: Faceless Void, Naga Siren, Rubick, Axe, Drow Ranger, Muerta, Legion Commander, Riki, Nyx Assassin, Dark Willow
+Jakiro: Rubick, Weaver, Keeper of the Light, Morphling, Legion Commander, Juggernaut, Faceless Void, Sniper, Snapfire, Oracle
+Batrider: Faceless Void, Leshrac, Viper, Weaver, Storm Spirit, Enchantress, Huskar, Abaddon, Queen of Pain, Pugna
+Chen: Leshrac, Phantom Lancer, Sven, Chaos Knight, Jakiro, Phantom Assassin, Broodmother, Terrorblade, Weaver, Lycan
+Spectre: Meepo, Beastmaster, Abaddon, Chen, Ember Spirit, Undying, Lycan, Lone Druid, Tidehunter, Io
+Doom Bringer: Arc Warden, Broodmother, Lone Druid, Luna, Marci, Medusa, Invoker, Enigma, Lina, Visage
+Ancient Apparition: Storm Spirit, Arc Warden, Anti-Mage, Phantom Lancer, Spectre, Puck, Weaver, Brewmaster, Night Stalker, Phantom Assassin
+Ursa: Phantom Lancer, Riki, Bristleback, Clinkz, Windranger, Naga Siren, Troll Warlord, Shadow Shaman, Ogre Magi, Venomancer
+Spirit Breaker: Underlord, Necrophos, Meepo, Clockwerk, Mars, Tiny, Beastmaster, Naga Siren, Enchantress, Tidehunter
+Gyrocopter: Lifestealer, Viper, Juggernaut, Chen, Ancient Apparition, Bristleback, Enchantress, Sniper, Razor, Treant Protector
+Alchemist: Ancient Apparition, Doom, Leshrac, Bristleback, Razor, Huskar, Juggernaut, Omniknight, Lina, Kez
+Invoker: Phantom Lancer, Broodmother, Puck, Faceless Void, Templar Assassin, Phantom Assassin, Sand King, Mirana, Windranger, Tusk
+Silencer: Lycan, Lone Druid, Broodmother, Naga Siren, Tidehunter, Enchantress, Morphling, Terrorblade, Phantom Lancer, Spectre
+Outworld Destroyer: Broodmother, Arc Warden, Phantom Lancer, Templar Assassin, Medusa, Chaos Knight, Enigma, Nyx Assassin, Rubick, Brewmaster
+Lycan: Naga Siren, Troll Warlord, Sven, Enchantress, Omniknight, Slardar, Phantom Assassin, Huskar, Earthshaker, Tusk
+Brewmaster: Clinkz, Bristleback, Windranger, Leshrac, Io, Oracle, Sven, Warlock, Faceless Void, Legion Commander
+Shadow Demon: Sven, Naga Siren, Lycan, Phantom Lancer, Riki, Sand King, Marci, Timbersaw, Bounty Hunter, Lone Druid
+Lone Druid: Elder Titan, Winter Wyvern, Windranger, Monkey King, Phantom Assassin, Huskar, Underlord, Phoenix, Earthshaker, Naga Siren
+Chaos Knight: Sand King, Warlock, Naga Siren, Medusa, Dark Seer, Phoenix, Phantom Lancer, Terrorblade, Timbersaw, Axe
+Meepo: Elder Titan, Earthshaker, Winter Wyvern, Leshrac, Troll Warlord, Shadow Fiend, Jakiro, Timbersaw, Monkey King, Lina
+Treant Protector: Timbersaw, Juggernaut, Leshrac, Phoenix, Slark, Muerta, Huskar, Necrophos, Earth Spirit, Pugna
+Ogre Magi: Phantom Lancer, Naga Siren, Chaos Knight, Meepo, Anti-Mage, Beastmaster, Slark, Broodmother, Enigma, Nature's Prophet
+Undying: Medusa, Luna, Phantom Lancer, Elder Titan, Ancient Apparition, Naga Siren, Witch Doctor, Clinkz, Timbersaw, Anti-Mage
+Rubick: Templar Assassin, Batrider, Chen, Tusk, Ursa, Ember Spirit, Earth Spirit, Razor, Dazzle, Hoodwink
+Disruptor: Chen, Shadow Demon, Sniper, Clinkz, Nature's Prophet, Pugna, Arc Warden, Templar Assassin, Pangolier, Oracle
+Nyx Assassin: Meepo, Lifestealer, Huskar, Slardar, Templar Assassin, Naga Siren, Ember Spirit, Chaos Knight, Visage, Ursa
+Naga Siren: Sand King, Timbersaw, Axe, Omniknight, Sven, Leshrac, Warlock, Necrophos, Lina, Jakiro
+Keeper Of The Light: Huskar, Slardar, Phantom Assassin, Storm Spirit, Faceless Void, Weaver, Nature's Prophet, Queen of Pain, Legion Commander, Nyx Assassin
+Io: Troll Warlord, Ancient Apparition, Underlord, Dark Willow, Luna, Winter Wyvern, Naga Siren, Kunkka, Earthshaker, Marci
+Visage: Phantom Lancer, Chen, Medusa, Winter Wyvern, Naga Siren, Marci, Bristleback, Earthshaker, Io, Dark Seer
+Slark: Disruptor, Mars, Grimstroke, Elder Titan, Techies, Earthshaker, Clockwerk, Bloodseeker, Muerta, Leshrac
+Medusa: Anti-Mage, Dark Seer, Invoker, Shadow Demon, Monkey King, Centaur Warrunner, Terrorblade, Slark, Sniper, Pangolier
+Troll Warlord: Axe, Slark, Razor, Naga Siren, Outworld Destroyer, Windranger, Ogre Magi, Pugna, Necrophos, Shadow Shaman
+Centaur Warrunner: Lifestealer, Chen, Bristleback, Ember Spirit, Oracle, Kez, Undying, Bloodseeker, Dazzle, Meepo
+Magnus: Enigma, Faceless Void, Ember Spirit, Huskar, Winter Wyvern, Weaver, Troll Warlord, Puck, Elder Titan, Earthshaker
+Timbersaw: Silencer, Medusa, Pugna, Outworld Destroyer, Grimstroke, Faceless Void, Skywrath Mage, Batrider, Templar Assassin, Queen of Pain
+Bristleback: Viper, Slark, Legion Commander, Drow Ranger, Hoodwink, Primal Beast, Juggernaut, Dragon Knight, Axe, Ancient Apparition
+Tusk: Elder Titan, Phoenix, Winter Wyvern, Monkey King, Dark Willow, Ember Spirit, Sand King, Timbersaw, Weaver, Lich
+Skywrath Mage: Lycan, Medusa, Chaos Knight, Templar Assassin, Lone Druid, Abaddon, Wraith King, Shadow Demon, Marci, Sven
+Abaddon: Elder Titan, Doom, Dark Seer, Anti-Mage, Meepo, Marci, Outworld Destroyer, Sven, Monkey King, Undying
+Elder Titan: Troll Warlord, Phantom Assassin, Clinkz, Winter Wyvern, Ursa, Skywrath Mage, Bristleback, Sven, Broodmother, Chen
+Legion Commander: Winter Wyvern, Dawnbreaker, Omniknight, Monkey King, Templar Assassin, Tusk, Oracle, Dragon Knight, Chaos Knight, Medusa
+Techies: Templar Assassin, Medusa, Lifestealer, Bristleback, Mars, Juggernaut, Batrider, Timbersaw, Bane, Spectre
+Ember Spirit: Huskar, Slark, Broodmother, Monkey King, Meepo, Lone Druid, Chen, Tinker, Troll Warlord, Morphling
+Earth Spirit: Meepo, Huskar, Lifestealer, Enigma, Juggernaut, Kez, Chen, Tidehunter, Lone Druid, Troll Warlord
+Underlord: Rubick, Elder Titan, Juggernaut, Ursa, Ancient Apparition, Lifestealer, Timbersaw, Pugna, Outworld Destroyer, Anti-Mage
+Terrorblade: Naga Siren, Axe, Phantom Lancer, Warlock, Lina, Dark Seer, Slark, Brewmaster, Timbersaw, Windranger
+Phoenix: Lina, Juggernaut, Lifestealer, Skywrath Mage, Tinker, Huskar, Bloodseeker, Muerta, Clinkz, Tidehunter
+Oracle: Anti-Mage, Shadow Demon, Io, Marci, Razor, Death Prophet, Outworld Destroyer, Enchantress, Undying, Templar Assassin
+Winter Wyvern: Pugna, Timbersaw, Leshrac, Sand King, Naga Siren, Necrophos, Anti-Mage, Ancient Apparition, Huskar, Weaver
+Arc Warden: Meepo, Broodmother, Phantom Lancer, Lycan, Warlock, Bristleback, Marci, Io, Pangolier, Sand King

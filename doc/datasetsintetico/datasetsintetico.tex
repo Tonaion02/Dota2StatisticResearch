@@ -1,0 +1,28 @@
+\subsection{RQ1:Il winrate varia notevolmente tra gli Hero?}
+\input{datasetsintetico/RQ1sint}
+
+\subsection{RQ2:winrate e pickrate variano tra ranked e unranked?}
+\input{datasetsintetico/RQ2sint}
+
+\subsection{RQ3:I winrate dei Radiant e dei Dire sono differenti?}
+\input{datasetsintetico/RQ3sint}
+
+\subsection{RQ4:Esiste una correlazione tra pickrate e winrate?}
+\input{datasetsintetico/RQ4sint}
+
+\newpage
+\subsection{RQ5:Esistono degli attributi più incisivi all'interno del gioco?}
+\input{datasetsintetico/RQ5sint}
+
+\newpage
+\subsection{RQ6:Esistono configurazioni dei team più convenienti?}
+\input{datasetsintetico/RQ6sint}
+
+\subsection{RQ7:Qual'è il rank delle istanze del dataset?}
+\input{datasetsintetico/RQ7sint}
+
+\subsection{Conclusioni}
+In conclusione, la generazione di dati sintetici è riuscita a simulare le differenze tra le partite ranked e unranked per quanto riguarda il pickrate e il winrate degli Hero. Per il pickrate però è necessario notare che rispetto al dataset originale i dati generati dal dataset sintetico dimostrano una perfetta ripartizione del pickrate tra i vari Hero. % cioè tutti gli Hero vengono pikkati quasi allo stesso modo
+La generazione dei dati non è riuscita a cogliere le complicate relazioni che intercorrono tra i vari elementi che costituiscono le partite. Questo è dimostrato dal fatto che non è stato possibile neanche individuare delle aree all'interno dello scatterplot winrate/pickrate, come invece è stato possibile per il dataset originale. I dati generati variano sensibilmente anche per quanto riguarda il winrate dei team Radian e Dire. 
+Se per quanto riguarda il dataset originale la distribuzione dell'elo per le partite ranked è riconducibile a una distribuzione nota(normale) questo non è vero per il dataset sintetico. \\
+Il dataset sintetico generato in questo caso non si ritiene attendibile per riuscire a migliorare l'analisi statistica oppure per migliorare i risultati della regressione. A nostro parere, le feature del dataset risultano inadeguate per cercare di generare delle nuove istanze di partite che possano rispecchiare le relazioni tra intercorrono tra gli elementi del gioco e quindi risultare utili per migliorare i risultati dell'analisi statistica.

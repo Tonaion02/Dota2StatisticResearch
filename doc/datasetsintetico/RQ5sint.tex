@@ -1,0 +1,59 @@
+Si tenta ora di rispondere alla research question 5 anche per quanto riguarda il dataset sintetico. I concetti di pickrate e winrate, sono i medesimi di quando è stata effettuata l'analisi per il dataset originale. Nel seguente grafico~\ref{pickrate_attributi_ranked_sintetico} è stato riportato il pickrate per ciascuno degli attributi per le partite ranked. Rispetto al dataset originale, si può notare che i pickrate degli attributi sono molto più simili tra di loro. Per quanto riguarda invece il winrate, si osservano diverse differenze nei valori associati agli attributi Strength e Agility, che risultano nettamente superiori rispetto a Intelligence e Universal. Di conseguenza, emerge una dicrepanza rispetto al dataset originale, in cui tutti i valori di winrate sono simili (intorno al 50\%) e solo Intelligence risulta effettivamente inferiore rispetto agli altri attributi.
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.2\linewidth}
+\includesvg[scale=0.6]{./FigureSintetico/attributi_winrate_pickrate/pickrate_attributi_ranked_sintetico.svg}
+\caption{La seguente figura è un barplot del pickrate per ciascuno degli attributi nelle partite ranked del dataset sintetico}
+\label{pickrate_attributi_ranked_sintetico}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.6]{./FigureSintetico/attributi_winrate_pickrate/winrate_attributi_ranked_sintetico.svg}
+\caption{ La seguente figura è un barplot del winrate per ciascuno degli attributi nelle partite ranked }
+\label{winrate_attributi_ranked_sintetico}
+\end{multicols}
+\end{figure} 
+All'interno della seguente figura~\ref{pickrate_attributi_merged_sintetico} è stato riportato un baplot per ciascuno degli attributi nelle partite ranked. All'interno di ciascun grafico è stata utilizzata una colonna per riportare la percentuale di squadre in cui compaiono esattamente un certo numero di Hero con un determinato attributo. Anche per il dataset sintetico, si è deciso di escludere tutte quante le configurazioni di team che hanno una frequenza minore del 5\% sono state tagliate dal resto dello studio per questa research question. Le frequenze relative di team in cui compaiono un esatto numero di Hero con un determinato attributo hanno valori molto simili tra di loro. Questa è una notevole differenze rispetto al dataset originale.
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./FigureSintetico/attributi_winrate_pickrate/pickrate_total_ranked_sintetico.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è stata utilizzata una colonna per riportare la percentuale di squadre in cui compaiono esattamente un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite ranked del dataset sintetico. }
+\label{pickrate_attributi_merged_sintetico}
+\end{center}
+\end{figure}
+All'interno della seguente figura~\ref{pickrate_attributi_merged_sintetico} invece sono ripotati i barplot del winrate per ciascuno degli attributi. In questo caso è possibile notare, che rispetto al caso originale per gli attributi Strenght e Agility la situazione sembra essere più o meno invariata, sono invece presenti delle notevoli differenze per quanto riguarda Intelligence e Universal, per i quali la cosa migliore è avere esattamente un Universal o Intelligence in squadra.
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./FigureSintetico/attributi_winrate_pickrate/winrate_total_ranked_sintetico.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è riportato il winrate dei team che possiedono un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite ranked dell'attributo sintetico.}
+\label{winrate_attributi_merged_sintetico}
+\end{center}
+\end{figure}
+Osservando i grafici è possibile quindi notare che per le partite ranked del dataset sintetico la scelta migliore è quella di avere un Hero per ciascuno degli attributi. 
+Per quanto riguarda le partite unranked, dai seguenti grafici (~\ref{pickrate_attributi_unranked_sintetico}~\ref{winrate_attributi_unranked_sintetico}~\ref{pickrate_attributi_unranked_merged_sintetico}~\ref{winrate_attributi_unranked_merged_sintetico}) si nota che la situazione rimane sostanzialmente invariata rispetto alle partite ranked. L'unica differenza significativa è che, per l'attributo Agility, la scelta ottimale è avere due giocatori in squadra anziché uno. Pertanto, nel dataset sintetico, non sussiste quindi nessuna particolare differenza su quelli che sono gli attributi più convenienti tra le partite ranked e quelle unranked del dataset sintetico, a differenza del dataset originale.
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.2\linewidth}
+\includesvg[scale=0.6]{./FigureSintetico/attributi_winrate_pickrate/pickrate_attributi_unranked_sintetico.svg}
+\caption{La seguente figura è un barplot del pickrate per ciascuno degli attributi nelle partite unranked del dataset sintetico}
+\label{pickrate_attributi_unranked_sintetico}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.6]{./FigureSintetico/attributi_winrate_pickrate/winrate_attributi_unranked_sintetico.svg}
+\caption{ La seguente figura è un barplot del winrate per ciascuno degli attributi nelle partite unranked del dataset sintetico }
+\label{winrate_attributi_unranked_sintetico}
+\end{multicols}
+\end{figure} 
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./FigureSintetico/attributi_winrate_pickrate/pickrate_total_unranked_sintetico.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è stata utilizzata una colonna per riportare la percentuale di squadre in cui compaiono esattamente un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite unranked del dataset sintetico. }
+\label{pickrate_attributi_unranked_merged_sintetico}
+\end{center}
+\end{figure}
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./FigureSintetico/attributi_winrate_pickrate/winrate_total_unranked_sintetico.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è riportato il winrate dei team che possiedono un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite unranked dell'attributo sintetico.}
+\label{winrate_attributi_unranked_merged_sintetico}
+\end{center}
+\end{figure}

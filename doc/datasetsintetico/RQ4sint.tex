@@ -1,0 +1,13 @@
+Si procede quindi a verificare se esiste una correlazione tra winrate e pickrate nei dati generati in maniera sintetica. Di seguito si mostrano i diagrammi di dispersione~\ref{plot_winrate_pickrate_ranked_raw_sintetico}~\ref{plot_winrate_pickrate_unranked_raw_sintetico} per le partite ranked e unranked. A partire da questi ultimi è possibile notare come sia difficile individuare una correlazione tra pickrate e winrate. Infatti, tutte quante le tecniche che sono state utilizzate sul dataset originale hanno restituito dei risultati per r-squared ancora più bassi(spesso quasi approssimabbili a zero). \\ 
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.75]{./FigureSintetico/correlazione_pickrate_winrate/plot_winrate_pickrate_ranked_sintetico.svg}
+\caption{Diagramma di dispersione del winrate e del pickrate degli Hero nelle partite classificate}
+\label{plot_winrate_pickrate_ranked_raw_sintetico}
+\includesvg[scale=0.75]{./FigureSintetico/correlazione_pickrate_winrate/plot_winrate_pickrate_unranked_sintetico.svg}
+\caption{Diagramma di dispersione del winrate e del pickrate degli Hero nelle partite non classificate}
+\label{plot_winrate_pickrate_unranked_raw_sintetico}
+\end{center}
+\end{figure}
+Si conferma che anche per quanto riguarda i dati generati in maniera sintetica non sono presenti delle correlazioni banali tra pickrate e winrate. Per quanto riguarda però i dati sintetici, pur divididendo in quattro quadranti lo scatterplot non si riesce a trarre nessuna conclusione che avrebbe un significato rispetto al dominio di riferimento. Questo perchè i dati generati hanno una variabilità del pickrate praticamente inesistente, tanto da renderli palesemente artificiali. \\
+La relazione tra pickrate e winrate che era difficile da descrivere ma che era presente per quanto riguarda i dati del dataset originale, sembra quindi non esser stata replicata dalla generazione dei dati. 

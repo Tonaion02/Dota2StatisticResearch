@@ -1,0 +1,32 @@
+La prima research question riguarda un analisi della variabilità del winrate di ciascun Hero. Quando ci riferiamo al winrate, intendiamo il rapporto tra le partite vinte e le partite giocate. Nel caso specifico, del winrate di un Hero, si intende il rapporto tra il numero di partite vinte con un Hero e il numero di partite perse con quel determinato Hero. \\
+Avere contezza della variabilità del winrate è una informazione importante per determinare lo stato del gioco. Avere una certa variabilità nel winrate dei campioni, potrebbe indicare che alcuni campioni rispetto ad altri consentono di arrivare più facilmente alla vittoria. \\
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./Figure/winrate_totale.svg}
+\caption{Barplot che mostra il winrate per ciascuno degli Hero}
+\label{winrate_totale}
+\end{center}
+\end{figure}
+Nel contesto dei giochi MOBA come Dota, dove regna la competizione, non aver bilanciato tutti quanti gli Hero potrebbe costringere i giocatori a giocare solamente gli Hero che garantiscono un vantaggio netto sugli altri. \\
+Il primo passo dell'analisi è stato quello di calcolare la varianza del winrate degli Hero, il cui valore è 0.003772695. Questo valore non indica che c'è una forte variabilità tra il winrate dei vari Hero.
+Si è deciso quindi di rappresentare attraverso un barplot il winrate di ciascuno degli Hero all'interno della seguente figura~\ref{winrate_totale}. All'interno del grafico è possibile notare come siano presenti degli Hero che hanno un winrate pari a zero. In effetti, gli hero 24 e 108 non compaiono all'interno di nessuna delle partite, non essendo giocati, hanno un winrate non determinabile. E' possibile però anche notare che è presente una certa variabilità nel winrate dei vari Hero. In particolare alcuni Hero scendono fino ad un winrate dello 0.3 mentre altri superano addirittura lo 0.5.
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.85]{./Figure/winrate_ranked.svg}
+\caption{Barplot che mostra il winrate per ciascuno degli Hero nelle partite ranked}
+\label{winrate_ranked}
+\includesvg[scale=0.85]{./Figure/winrate_unranked.svg}
+\caption{Barplot che mostra il winrate per ciascuno degli Hero nelle partite unranked}
+\label{winrate_unranked}
+\end{center}
+\end{figure}
+Successivamente si è deciso di analizzare il winrate degli Hero distinguendo le partite ranked da quelle unranked. La varianza del winrate degli hero sono 0.004792672 e 0.004651123 rispettivamente per le partite ranked e unranked. Non c'è quindi una particolare variazione rispetto alla varianza nel caso in cui le abbiamo considerate tutte insieme. Andando ad analizzare i grafici nelle figure~\ref{winrate_ranked} e ~\ref{winrate_unranked}, che sono rispettivamente quelli delle partite ranked e unranked, non si notano particolari differenze rispetto al grafico dove abbiamo considerato tutte quante le partite insieme. \\
+Andando ad analizzare successivamente la distribuzione dei winrate per le partite ranked e quelle unranked(figura~\ref{distribuzione_winrate_ranked_unranked}), ci siamo resi conto che in entrambi i grafici, ci sono un grande numero di Hero che ricadono nel range di winrate di 0.45 e 0.55. In entrambi i grafici è chiaro però che ci sono un grande numero di campioni che hanno un winrate molto più alto rispetto agli altri e altri con un winrate molto più basso(35\%). \\
+Riassumendo, gli indici di sintesi delle variabilità, non suggeriscono una forte varianza all'interno dei due campioni. In questo caso però è necessario sottolineare che anche variazioni minime nel winrate, che non possono essere "catturate" da un indice come la varianza, possono determinare uno squilibrio all'interno del gioco. Un buon numero di Hero risiedono all'interno delle code a sinistra e destra dei grafici delle distribuzioni in figura~\ref{distribuzione_winrate_ranked_unranked}. Questo ci permette di determinare che un buon numero di Hero non si trovano in un winrate che varia tra 0.45 e 0.55. Rispetto a questo risultato ottenuto si può concludere che il gioco non è bilanciato, in quanto ci sono un grande numero di Hero per cui c'è una varianza troppo forte del winrate rispetto agli altri.
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.75]{./Figure/distribuzione_winrate_ranked_unranked.svg}
+\caption{Figura che mostra i barplot per la distribuzione del winrate nelle partite ranked e in quelle unranked}
+\label{distribuzione_winrate_ranked_unranked}
+\end{center}
+\end{figure}

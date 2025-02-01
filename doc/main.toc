@@ -1,0 +1,26 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Introduzione}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Gameplay}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Research Questions}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Specifica del dataset}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Pulizia preliminare del dataset e selezione dei dati}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Generazione del dataset sintetico}{5}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Dataset originale}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}RQ1:Il winrate varia notevolmente tra gli Hero?}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}RQ2:winrate e pickrate variano tra ranked e unranked?}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}RQ3:I winrate dei Radiant e dei Dire sono differenti?}{16}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}RQ4:Esiste una correlazione tra pickrate e winrate?}{18}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}RQ5:Esistono degli attributi più incisivi all'interno del gioco?}{22}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}RQ6:Esistono configurazioni dei team più convenienti?}{28}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}RQ7:Qual'è il rank delle istanze del dataset?}{31}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Dataset sintetico}{35}{section.3}%
+\contentsline {subsection}{\numberline {3.1}RQ1:Il winrate varia notevolmente tra gli Hero?}{35}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}RQ2:winrate e pickrate variano tra ranked e unranked?}{37}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}RQ3:I winrate dei Radiant e dei Dire sono differenti?}{43}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}RQ4:Esiste una correlazione tra pickrate e winrate?}{43}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}RQ5:Esistono degli attributi più incisivi all'interno del gioco?}{45}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}RQ6:Esistono configurazioni dei team più convenienti?}{51}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}RQ7:Qual'è il rank delle istanze del dataset?}{52}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Conclusioni}{53}{subsection.3.8}%

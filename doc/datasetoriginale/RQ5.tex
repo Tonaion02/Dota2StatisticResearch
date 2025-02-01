@@ -1,0 +1,75 @@
+Ciascuno dei personaggi giocabili all'interno del gioco possiede delle caratteristiche uniche, come ad esempio le sue skill, i suoi ruoli e il suo attributo. Gli attributi in Dota2 indicano quali sono le statistiche principali del personaggio che vanno a determinare come quest'ultimo crescerà ed evolverà durante la partita. Gli attributi sono quindi le caratteristiche degli Hero che li caratterizzano maggiormente. \\
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.2\linewidth}
+\includesvg[scale=0.6]{./Figure/attributi_winrate_pickrate/pickrate_attributi_ranked.svg}
+\caption{La seguente figura è un barplot del pickrate per ciascuno degli attributi nelle partite ranked}
+\label{pickrate_attributi_ranked}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.6]{./Figure/attributi_winrate_pickrate/winrate_attributi_ranked.svg}
+\caption{La seguente figura è un barplot del winrate per ciascuno degli attributi nelle partite ranked}
+\label{winrate_attributi_ranked}
+\end{multicols}
+\end{figure} \\ \\
+In Dota2 sono presenti 4 attributi differenti:
+\begin{itemize}
+\item Strength
+\item Agility
+\item Intelligence
+\item Universal 
+\end{itemize}
+Ai fini di questo studio non si sono ritenute necessarie le informazioni tecniche che riguardano ciascuno degli attributi. \\
+Gli attributi permettono di determinare degli elementi fondamentali del Hero e hanno quindi una grande influenza su quello che è lo stato del gioco. Nella seguente research question si cercherà di determinare se tra tutti quanti gli attributi ne è presente qualcuno che risulta essere più "conveniente" dal punto di vista statistico rispetto agli altri. \\
+Per rispondere a questa research question, il primo passo è stato quello di analizzare il pickrate e il winrate per gli attributi. Il pickrate degli attributi è stato calcolato come il rapporto tra la frequenza assoluta delle partite in cui è stato giocato almeno un Hero con quell'attributo fratto il numero di partite. Il winrate è stato calcolato come il rapporto tra il numero di partite in cui il team vincente aveva selezionato almeno un Hero con quell'attributo fratto il numero di partite in cui compariva un team con quell'Hero. \\
+I valori del pickrate di ciascun attributo nelle partite ranked è stato riportato nel grafico~\ref{pickrate_attributi_ranked}. E' possibile notare che nella maggior parte delle partite viene giocato almeno un Hero con attributo Strength e uno con Agility. All'interno del grafico~\ref{winrate_attributi_ranked} è stato riporato il valore del winrate per ciascuno degli attributi nelle partite ranked, ed è possibile notare che tutti quanti gli attributi hanno un winrate che si aggira attorno al 50\%. Per come è stato misurato il winrate, anche una minima variazione(più bassa rispetto a quelle considerate nelle research question precedenti) è importante.
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./Figure/attributi_winrate_pickrate/pickrate_total_ranked.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è stata utilizzata una colonna per riportare la percentuale di squadre in cui compaiono esattamente un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite ranked. }
+\label{pickrate_attributi_merged}
+\end{center}
+\end{figure}
+Avere uno degli attributi con un winrate decisamente più basso rispetto agli altri significherebbe che un Hero con quell'attributo compare molto più di rado rispetto agli altri in un team vincente. E' quindi da notare che Intelligence rispetto a tutti gli altri attributi è associata ad un winrate leggermente minore. \\
+Successivamente si è deciso di analizzare in maniera più precisa il winrate di ciascuno degli attributi. All'interno della seguente figura~\ref{pickrate_attributi_merged} è stato riportato un baplot per ciascuno degli attributi nelle partite ranked. All'interno di ciascun grafico è stata utilizzata una colonna per riportare la percentuale di squadre in cui compaiono esattamente un certo numero di Hero con un determinato attributo.  Questi grafici ci sono utili principalmente per comprendere per quali tipologie di team si hanno abbastanze istanze per poterne poi successivamente valutare il winrate. Tutte quante le tipologie di team per cui la frequenza calcolata è minore del 5\% sono state tagliate dal resto dello studio per questa research question. \\
+All'interno della figura~\ref{winrate_attributi_merged} è riportato un grafico per ciascuno degli attributi. All'interno di ciascuno dei grafici ciascuna colonna rappresenta il winrate dei team che possiedono un certo numero di Hero con un determinato attributo. E' possibile notare che per quanto riguarda l'attributo Strenght sembra essere statisticamente più conveniente avere un numero di Hero in squadra tra 1 e 3 rispetto a non averne affatto. Per quanto riguarda Agility la scelta conveniente sembra averne un numero tra 1 e 2. Mentre per quanto riguarda Intelligence e Universal, sembra convenire avere al più un solo Hero con quel determinato attributo. \\
+Da questa analisi è emerso che avere in squadra Hero con Universal o Intelligence non fa variare statisticamente il winrate, ed è possibile osservare che i team in cui sono presenti Hero con attributi Strenght e Agility hanno un winrate maggiore rispetto a quelli che non li hanno. Se quindi non è possibile determinare con precisione se un attributo sia nettamente più incisivo degli altri, per quanto riguarda le partite ranked gli attributi Strenght e Agility sembrano risultare più determinanti per ottenere la vittoria. Questo risultato, sembra giustificare il fatto che il pickrate per Strenght e Agility rappresentato nel grafico~\ref{pickrate_attributi_ranked} sia molto più alto per Strenght e Agility rispetto agli altri due attributi. \\
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./Figure/attributi_winrate_pickrate/winrate_total_ranked.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è riportato il winrate dei team che possiedono un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite ranked.}
+\label{winrate_attributi_merged}
+\end{center}
+\end{figure}
+Ripetiamo l'analisi che è stata effettuata per le partite ranked anche per le partite unranked. Il grafico del pickrate è presente nella figura~\ref{pickrate_attributi_unranked}. Quest'ultimo risulta essere molto simile a quello delle partite unranked, si ha però un incremento per quanto riguarda  Intelligence e Universal. Per quanto riguarda il winrate degli attributi, che è riportato nel grafico~\ref{winrate_attributi_unranked} è possibile notare che abbiamo una distrbuzione del winrate tra gli attributi praticamente perfetta. \\
+Si procede ora con l'analisi maggiormente specifica per ciascuno degli attributi. All'interno della seguente figura~\ref{pickrate_attributi_merged_unranked} è stato riportato un baplot per ciascuno degli attributi nelle partite unranked. Nei grafici le colonne rappresentano la percentuale di squadre in cui compaiono esattamente un certo numero di Hero con un determinato attributo. Anche in questo caso questi dati sono stati utilizzati per scartare le tipologie di team per le quali si hanno troppe poche istanze per effettuare una valutazione, utilizzando lo stesso principio utilizzato precedentemente. \\ 
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.2\linewidth}
+\includesvg[scale=0.6]{./Figure/attributi_winrate_pickrate/pickrate_attributi_unranked.svg}
+\caption{La seguente figura è un barplot del pickrate per ciascuno degli attributi nelle partite unranked}
+\label{pickrate_attributi_unranked}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.6]{./Figure/attributi_winrate_pickrate/winrate_attributi_unranked.svg}
+\caption{La seguente figura è un barplot del winrate per ciascuno degli attributi nelle partite unranked}
+\label{winrate_attributi_unranked}
+\end{multicols}
+\end{figure}
+All'interno della figura~\ref{winrate_attributi_merged_unranked} è riportato un grafico per ciascuno degli attributi.  Nei grafici ciascuna colonna rappresenta il winrate dei team che possiedono un certo numero di Hero con un determinato attributo. Nello specifico in questo caso è possibile notare che nel caso dell'attributo Strength conviene avere tra 1 e 3 Hero con questo attributo. Per agility invece conviene avere tra 1 e 2 Hero. Ma la situazione rispetto a prima cambia notevolmente per Universal e Intelligence. In questo caso, infatti, non avere un Hero con questi attributi ci porta ad avere un winrate notevolmente minore. \\
+Nel caso quindi delle partite unranked, Strenght e Agility sono incisivi per lo meno quando si possegono da 1 a 2 Hero, mentre nel caso di Universal e Intelligence, conviene avere esattamente un Hero con quel determinato attributo. \\ 
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./Figure/attributi_winrate_pickrate/pickrate_total_unranked.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è stata utilizzata una colonna per riportare la percentuale di squadre in cui compaiono esattamente un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite unranked.}
+\label{pickrate_attributi_merged_unranked}
+\end{center}
+\end{figure}
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.8]{./Figure/attributi_winrate_pickrate/winrate_total_unranked.svg}
+\caption{Nella seguente figura sono riportati 4 barplot, uno per ogni attributo del gioco. All'interno di ciascun grafico è riportato il winrate dei team che possiedono un certo numero di Hero con un determinato attributo. I seguenti grafici sono riferiti alle partite unranked}
+\label{winrate_attributi_merged_unranked}
+\end{center}
+\end{figure}
+Riassumendo, sono stati ottenuti risultati differenti per le partite ranked e per le partite unranked. In particolare, nelle partite ranked si è rivelata fondamentale la presenza di un Hero con attributo Strenght o Agility mentre avere più di un Hero con attributo Intelligence o Universal sembra diminuire statisticamente il winrate. Per quanto riguarda invece le partite unranked la situazione di Strenght e Agility non è mutata in maniera particolarmente interessante, invece per Universal e Intelligence la scelta migliore è avere esattamente un membro in squadra per ciascuno dei due attributi.

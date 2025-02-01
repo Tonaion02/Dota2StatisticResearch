@@ -1,0 +1,36 @@
+All'interno di questa analisi statistica si è cercato di definire lo stato del gioco indagando anche se c'erano Hero e attributi che convenivano statisticamente rispetto agli altri. Tuttavia, nel genere dei MOBA spesso la vittoria non è determinata dai singoli ma è piuttosto determinata dall'efficacia del team. Se anche un giocatore compie tutte quante le scelte giuste per quanto gli è possibile, probabilmente non sarà abbastanza se il team non fa altrettanto bene. \\
+Rispetto a questa caratteristica dei MOBA è interessante analizzare il winrate delle varie configurazioni di team, in modo da capire se emerge una qualche configurazione di team che è statisticamente più conveniente rispetto a tutte quante le altre. \\
+\begin{table}
+\centering
+\caption{Nella seguente tabella sono riportati le 5 configurazioni di team che hanno il winrate più alto all'interno delle partite ranked. }
+\label{tabella_winrate_team_ranked}
+\begin{tabular}{|r|r|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{Strength} & \multicolumn{1}{l|}{Intelligence} & \multicolumn{1}{l|}{Agility} & \multicolumn{1}{l|}{Universal} & \multicolumn{1}{l|}{WinRate} \\ \hline
+1 & 2 & 2 & 0 &   54.9\% \\ \hline
+3 & 1 & 1 & 0 &   53.7\%  \\ \hline
+3 & 0 & 2 & 0 &   52.9\% \\ \hline
+1 & 1 & 2 & 1 &   52.1\%  \\ \hline
+2 & 0 & 3 & 0 &   51.6\% \\ \hline
+\end{tabular}
+\end{table}
+Ciascun Hero è caratterizzato da vari elementi e di conseguenza per valutare la configurazione del team si possono utilizzare varie metriche. Ovviamente, non c'è in assoluto nessuna metrica che si possa dire migliore rispetto alle altre. La metrica che ci è sembrato più sensato utilizzare per valutare l'efficacia di un team è quella basata sulla configurazione di attributi. Semplicemente, si andranno a creare delle classi di team rispetto al numero di Hero che possiedono per ciascun attributo. \\
+Non tutte quante le classi di team avranno lo stesso numero di istanze e alcune configurazioni di team non compariranno affatto all'interno dei dati. Questo è plausibile dato che alcune configurazioni risultano semplicemente assurde per poter essere giocate. Tra tutte quante le configurazioni di team, si è deciso di scartare le configurazioni di team che sono presenti in meno del 10\% delle partite. \\
+Anche in questo caso l'analisi è stata effettuata in maniera distinta per le partite ranked e per quelle unranked. All'interno della seguente tabella~\ref{tabella_winrate_team_ranked} sono state riportate le 5 configurazioni di team che hanno un winrate maggiore rispetto alle altre.  Per le partite ranked è possibile notare che il risultato dell'analisi, è in un certo qual modo coerente rispetto ad alcuni risultati ottenuti in precedenza. Difatti, all'interno di 4 team su 5, l'attributo Universal si trova a 0 rispecchiando quelli che erano i risultati già ottenuti in precedenza per quanto riguarda il winrate dell'attributo Universal nelle partite ranked(figura~\ref{winrate_attributi_merged}). Anche per quanto riguarda Intelligence quest'ultimo compare all'interno dei top team con una media di 0.8, conforme rispetto a quelle che erano le scelte convenienti che erano emerse durante l'analisi degli attributi. \\
+All'interno della seguente tabella~\ref{tabella_winrate_team_unranked} sono invece riportati i risultati per le partite unranked. Se confrontiamo le configurazioni dei team che appaiono migliori nelle partite unranked con i dati riguardanti il winrate degli attributi in figura~\ref{winrate_attributi_merged_unranked}, è possibile notare che Universal è utilizzato esattamente una volta nella maggior parte dei team, Strength varia tra 1 e 2 e lo stesso vale per Agility. \\
+\begin{table}
+\centering
+\caption{Nella seguente tabella sono riportati le 5 configurazioni di team che hanno il winrate più alto all'interno delle partite unranked.}
+\label{tabella_winrate_team_unranked}
+\begin{tabular}{|r|r|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{Strength} & \multicolumn{1}{l|}{Intelligence} & \multicolumn{1}{l|}{Agility} & \multicolumn{1}{l|}{Universal} & \multicolumn{1}{l|}{WinRate} \\ \hline
+1 & 2 & 2 & 0 &   54.6\% \\ \hline
+2 & 1 & 1 & 1 &   51.8\%  \\ \hline
+1 & 2 & 1 & 1 &   50.8\% \\ \hline
+1 & 1 & 2 & 1 &   50.7\%  \\ \hline
+2 & 0 & 2 & 1 &   50.6\% \\ \hline
+\end{tabular}
+\end{table}
+E' possibile inoltre notare che ci sono differenze meno marcate rispetto ai top team delle partite ranked, se non per il team più vincente tra tutti. Il team più vincente tra tutti è anche lo stesso tra le partite ranked e quelle unranked. \\
+In conclusione, è importante sottolineare che rispetto al winrate di un determinato Hero questo valore risulta essere molto più significativo. Questo proprio per i motivi che sono stati spiegati precedentemente, la configurazione del team è sicuramente un parametro molto più importante rispetto a quella che è la scelta del singolo giocatore. Si può concludere quindi che c'è una differenza significativa tra i winrate di alcuni team, che ci porta a concludere che effettivamente esistono delle configurazioni di team maggiormente convenienti rispetto ad altre.

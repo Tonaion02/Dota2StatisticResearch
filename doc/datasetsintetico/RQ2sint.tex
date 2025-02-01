@@ -1,0 +1,97 @@
+Allo scopo di verificare se all'interno del dataset sintetico è presente una variabilità tra le partite classificate e quelle non classificate, si procede a rispondere alla research question 2 per il dataset sintetico. \\
+Nelle figura~\ref{frequenze_pickrate_ranked_unranked_sintetico} sono riportati i pickrate degli Hero nelle partite ranked e unranked. La differenza dei pickrate tra le due modalità è osservabile meglio all'interno del grafico~\ref{differenza_pickrate_ranked_unranked_sintetico}. Rispetto al dataset originale, è possibile osservare che le differenze tra le modalità ranked e unranked sono molto minori. In questo caso praticamente non abbiamo mai un Hero che supera la soglia del 2.5\%.
+Sono stati poi realizzati anche in questo caso i boxplot ad intaglio~\ref{boxplot_pickrate_sintetico} per il pickrate degli Hero per le partite ranked e unranked. Si nota la quasi totale assenza di outlier, che ritorna come informazione rispetto al grafico delle differenze dei pickrate~\ref{differenza_pickrate_ranked_unranked_sintetico}. Come nel caso del dataset originale, l'intervallo (-0.002648102, 0.001843585) suggerisce che non ci sono differenze statistiche particolari tra le mediane dei due campioni. \\
+Nella tabella~\ref{indici_sintesi_pickrate_sintetico} sono stati riportati gli indici di sintesi per il pickrate nelle partite ranked e unranked. Se la media dei campioni è rimasta invariata rispetto al dataset originale, è interessante notare che la mediana è invece cambiata. La varianza e la deviazione standard sono diminuite moltissimo rispetto al campione originale. \\
+I valori del campione sintetico si allontanano di più da quelli dell'originale proprio per skewness e curtosi. Quindi, a differenza del campione originale, nel campione sintetico sussistono delle differenze importanti riguardo la distribuzione del pickrate, nonostante non ci siano delle forti variazioni per quanti riguarda i singoli Hero. Infatti rispettivamente per le partite ranked e unranked abbiamo una skewness positiva e negativa, che comportano quindi rispettivamente un asimmetria a destra e una a sinistra. 
+\begin{figure}[htbp]
+\begin{center}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=0.9]{./FigureSintetico/differenze_ranked_unranked/frequenze_pickrate_ranked_unranked_sintetico.svg}
+\caption{Nella seguente figura sono mostrati i barplot per il pickrate degli hero nelle partite ranked e unranked}
+\label{frequenze_pickrate_ranked_unranked_sintetico}
+\end{center}
+\end{figure}
+\begin{figure}[htbp]
+\begin{center}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=1.1]{./FigureSintetico/differenze_ranked_unranked/differenza_pickrate_ranked_unranked_sintetico.svg}
+\caption{Nella seguente figura è mostrato il barplot per la differenza del pickrate degli hero nelle partite ranked e unranked}
+\label{differenza_pickrate_ranked_unranked_sintetico}
+\end{center}
+\end{figure}
+\begin{figure}[htbp]
+\begin{center}
+% \hspace*{-0.15\linewidth}
+\includesvg[scale=0.9]{./FigureSintetico/differenze_ranked_unranked/boxplot_new_sintetico.svg}
+\caption{Nella seguente figura sono mostrati i boxplot ad intaglio per il pickrate nelle partite ranked e unranked}
+\label{boxplot_pickrate_sintetico}
+\end{center}
+\end{figure}
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici di sintesi per il pickrate per le partite ranked e unranked}
+\label{indici_sintesi_pickrate_sintetico}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+media               &  0.08850  &   0.08850 \\ \hline
+mediana             &  0.08820  &  0.08860 \\ \hline
+deviazione standard &  0.005701508  &   0.005403042 \\ \hline
+varianza            &  3.25072e-05  &   2.919287e-05 \\ \hline
+\end{tabular}
+\end{table}
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici simmetrici per pickrate nelle partite ranked e unranked}
+\label{indici_simmetrici_pickrate_sintetico}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+skewness    &  0.1577882  &   -0.3684828     \\ \hline
+curtosi     &  2.848794  &   2.547602     \\ \hline
+\end{tabular}
+\end{table}
+Si verifica anche per il winrate se ci sono delle differenze interessanti tra i due campioni analizzati. All'interno della figura~\ref{boxplot_winrate_sintetico} sono riportati i boxplot ad intaglio del winrate. Come nel caso del pickrate, anche per il winrate si hanno un basso numero di outlier e anche in questo caso l'intervallo di confidenza(-0.03541395, 0.02387649) indica che le mediane dei due campioni non sono troppo differenti tra di loro. \\
+Gli indici di sintesi riportati all'interno della seguente tabella~\ref{indici_sintesi_winrate_sintetico} non mostrano particolari differenze tra media, mediana e varianza tra le partite ranked e unranked. Rispetto al dataset originale è possibile notare un minimo incremento degli indici di dispersione. \\
+In questo caso le distribuzioni non mutano sensibilmente tra le partite ranked e quelle unranked, come è possibile vedere nella figura~\ref{distribuzione_winrate_ranked_unranked_sintetico}, il che è testimoniato anche dagli indici presenti nella tabella~\ref{indici_simmetrici_winrate_sintetico}. Rispetto al dataset originale però, si hanno meno differenze tra gli Hero che superano quella che è la soglia stabilita. In particolare 27.4\% contro il 37\% del dataset originale. \\
+\begin{figure}[htbp]
+\begin{center}
+% \hspace*{-0.15\linewidth}
+\includesvg[scale=0.9]{./FigureSintetico/differenze_ranked_unranked/boxplot_winrate_sintetico.svg}
+\caption{Nella seguente figura sono mostrati i boxplot ad intaglio per il winrate nelle partite ranked e unranked}
+\label{boxplot_winrate_sintetico}
+\end{center}
+\end{figure}
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici di sintesi per il winrate per le partite ranked e unranked}
+\label{indici_sintesi_winrate_sintetico}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+media               &  0.5008  &   0.5000 \\ \hline
+mediana             &  0.5074  &  0.5132 \\ \hline
+deviazione standard & 0.08350946  &   0.07758461 \\ \hline
+varianza            &  0.00697383  &   0.006019371 \\ \hline
+\end{tabular}
+\end{table}
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici simmetrici per winrate nelle partite ranked e unranked}
+\label{indici_simmetrici_winrate_sintetico}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+skewness    &  -0.4500729  &   -0.5209041     \\ \hline
+curtosi     &  3.495748  &   2.78405     \\ \hline
+\end{tabular}
+\end{table}
+\begin{figure}[htbp]
+\begin{center}
+% \hspace*{-0.15\linewidth}
+\includesvg[scale=0.9]{./FigureSintetico/differenze_ranked_unranked/differenza_winrate_ranked_unranked_sintetico.svg}
+\caption{Nella seguente figura è riportata la differenza dei winrate per i singoli Hero nelle partite ranked e unranked}
+\label{differenza_winrate_ranked_unranked_sintetico}
+\end{center}
+\end{figure}
+In conclusione per quanto riguarda il pickrate, è presente una bassisima variabilità per il singolo Hero ma una variazione della distribuzione del pickrate. Per il winrate, le distribuzioni risultano essere simili tra di loro mentre per i singoli Hero sussistono comunque delle differenze importanti.

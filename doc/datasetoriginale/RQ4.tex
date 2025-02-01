@@ -1,0 +1,70 @@
+Come è stato già spiegato nelle research question precedenti, il winrate degli Hero può essere determinante per capire se un gioco risulta essere bilanciato o meno. \\
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.75]{./Figure/correlazione_pickrate_winrate/plot_winrate_pickrate_ranked_raw.svg}
+\caption{Diagramma di dispersione del winrate e del pickrate degli Hero nelle partite classificate}
+\label{plot_winrate_pickrate_ranked_raw}
+\includesvg[scale=0.75]{./Figure/correlazione_pickrate_winrate/plot_winrate_pickrate_unranked_raw.svg}
+\caption{Diagramma di dispersione del winrate e del pickrate degli Hero nelle partite non classificate}
+\label{plot_winrate_pickrate_unranked_raw}
+\end{center}
+\end{figure}
+Nel genere dei giochi MOBA solitamente minime variazioni nel winrate dei campioni possono condurre i giocatori a giocare un determinato Hero piuttosto che un altro. All'interno di questa research question si cercherà di individuare qualche evidenza di una correlazione tra pickrate e winrate degli Hero. Individuare una simile correlazione è interessante perché suggerirebbe che il winrate potrebbe influenzare il pickrate degli Hero. \\
+Per cercare di individuare dei palesi pattern all'interno dei dati, abbiamo realizzato dei diagrammi di dispersione(figura~\ref{plot_winrate_pickrate_ranked_raw}~\ref{plot_winrate_pickrate_unranked_raw}) per le partite ranked e unranked. Entrambi i diagrammi di dispersione non mostrano dei pattern ovvi. Per verificare però, se c'è una correlazione lineare si è deciso di utilizzare le tecniche di regressione e valutare direttamente i coefficienti. All'interno delle seguenti figure(~\ref{correlazione_pickrate_winrate_ranked}~\ref{correlazione_pickrate_winrate_unranked}) sono riportati i valori dei coefficienti di correlazione.
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=0.5]{./Figure/correlazione_pickrate_winrate/correlazione_winrate_pickrate_ranked.svg}
+\caption{Nella seguente figura è riportato il coefficiente di correlazione winrate e pickrate per le partite ranked}
+\label{correlazione_pickrate_winrate_ranked}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=0.5]{./Figure/correlazione_pickrate_winrate/correlazione_winrate_pickrate_unranked.svg}
+\caption{Nella seguente figura è riportato il coefficiente di correlazione winrate e pickrate per le partite unranked}
+\label{correlazione_pickrate_winrate_unranked}
+\end{multicols}
+\end{figure}
+Si può notare che i coefficienti indicano una correlazione bassa, confermando la sensazione restituita dai diagrammi di dispersione secondo cui non sembrava esistere nessuna correlazione di tipo lineare. \\
+Si è deciso quindi di tentare l'utilizzo di tecniche più avanzate di regressione, per cercare una correlazione di tipo non lineare. Nello specifico sono stati utilizzati metodi avanzati basati sulle curve di fitting. Il primo metodo che è stato utilizzato è la spline, il risultato è stato riportato graficamente all'interno delle seguenti figure~\ref{spline_ranked}~\ref{spline_unranked}. 
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.2\linewidth}
+\includesvg[scale=0.6]{./Figure/correlazione_pickrate_winrate/spline_ranked.svg}
+\caption{Nella seguente figura è riportato il diagramma di dispersione con la curva computata attraverso la Spline sulle partite ranked}
+\label{spline_ranked}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.6]{./Figure/correlazione_pickrate_winrate/spline_unranked.svg}
+\caption{Nella seguente figura è riportato il diagramma di dispersione con la curva computata attraverso la Spline sulle partite unranked}
+\label{spline_unranked}
+\end{multicols}
+\end{figure}
+Nel caso di ranked il valore di R-squared è di 0.1205, mentre per le unranked 0.1462. Dato che il valore di R-squared varia tra 0 e 1, si può concludere che questo valore è basso e non rappresentativo di una correlazione effettiva.\\
+Si è deciso quindi di tentare anche un altro metodo, in particolare la Gaussian Process Regression. Il risultato di questa regressione è visibile all'interno dei seguenti grafici~\ref{gpr_ranked}~\ref{gpr_unranked}. Il valore di R-squared nel caso delle partite ranked è 0.2412 e invece è 0.2625 nel caso delle partite unranked. In entrambi i casi i valori ottenuti sono troppo bassi, di conseguenza anche queste curve non sono rappresentative.
+\begin{figure}[htbp]
+\centering
+\begin{multicols}{2}
+\hspace*{-0.2\linewidth}
+\includesvg[scale=0.6]{./Figure/correlazione_pickrate_winrate/gpr_ranked.svg}
+\caption{Nella seguente figura è riportato il diagramma di dispersione con la curva computata attraverso la Gaussian Process Regression sulle partite ranked}
+\label{gpr_ranked}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.6]{./Figure/correlazione_pickrate_winrate/gpr_unranked.svg}
+\caption{Nella seguente figura è riportato il diagramma di dispersione con la curva computata attraverso la Gaussian Process Regression sulle partite unranked}
+\label{gpr_unranked}
+\end{multicols}
+\end{figure}
+Rispetto a quelli che sono i risultati che sono stati ottenuti, non siamo riusciti ad individuare una correlazione banale tra il pickrate e il winrate che fosse rappresentabile attraverso una linea oppure una curva. \\
+Ragionando però su quello che è il dominio sul quale stiamo conducendo l'analisi, questo risultato assume facilmente un significato. Il winrate può indicare uno squilibrio nel gioco e molto spesso nei MOBA pochissimi personaggi giocabili sono quelli utilizzabili per competere. Non è però solamente questo parametro che influenza quali personaggi verranno giocati, a influenzare la scelta del personaggio da giocare all'interno dei MOBA sono anche la complessità dell'Hero, le sue abilità, il suo ruolo all'interno del team e quanto quest'ultimo risulta divertente da giocare. \\
+Se quindi è naturale che non possa esistere una correlazione così banale tra il winrate e il pickrate, è possibile comunque ragionando sul dominio del problema fare determinate osservazioni. Prendendo in considerazione i diagrammi di dispersione riportati nelle figure~\ref{plot_winrate_pickrate_ranked}~\ref{plot_winrate_pickrate_unranked} è possibile apprezzare che tali diagrammi possono essere facilmente divisi in 4 aree definendo degli intervalli per il winrate e per il pickrate. E' quindi possibile notare che non esistono Hero con un basso winrate e un alto pickrate. Se il winrate non è il solo elemento che influenza se un Hero viene scelto da un giocatore, contemporaneamente si deve considerare che se il winrate di un Hero è troppo basso è raro che quest'ultimo verrà scelto dai giocatori. Addirittura rispetto agli intervalli che sono stati fissati, questa area appare vuota o quasi in entrambi i diagrammi di dispersione. Esistono invece in un numero esiguo gli Hero che hanno un basso winrate e un basso pickrate. \\
+Per quanto riguarda invece gli Hero che possiedono un alto winrate è possibile notare che la maggior parte di questi ultimi hanno un pickrate basso e solamente un numero esiguo hanno un pickrate alto. Anche questa situazione non stupisce rispetto a quello che di solito è lo stato dei giochi MOBA. Difatti, il winrate non può da solo determinare se un personaggio verrà giocato molto o meno. Spesso i personaggi che hanno un alto winrate possono risultare noiosi da giocare. In altri casi, come anche quello di Dota2, i match sono organizzati per elo(rango del giocatore) e alcuni personaggi, troppo semplici possono facilmente diventare troppo limitati o addirittura inutili quando si gioca con degli avversari maggiormente esperti. Questi sono solo due esempi rispetto ai molti elementi che influenzano notevolmente il pickrate di un determinato personaggio all'interno dei giochi MOBA. Dai risultati ottenuti e dalle informazioni riguardanti il dominio si può concludere che è verosimile che non esista una correlazione(quanto meno banale) tra il pickrate e il winrate. 
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.7]{./Figure/correlazione_pickrate_winrate/plot_winrate_pickrate_ranked.svg}
+\caption{Nella seguente figura è riportato il diagramma di dispersione delle partite ranked diviso in 4 quadranti}
+\label{plot_winrate_pickrate_ranked}
+\includesvg[scale=0.7]{./Figure/correlazione_pickrate_winrate/plot_winrate_pickrate_unranked.svg}
+\caption{Nella seguente figura è riportato il diagramma di dispersione delle partite unranked diviso in 4 quadranti}
+\label{plot_winrate_pickrate_unranked}
+\end{center}
+\end{figure}

@@ -1,0 +1,28 @@
+Si cerca ora di rispondere alla research question numero 1 anche per il dataset sintetico.
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.9]{./FigureSintetico/distribuzione_winrate.svg}
+\caption{Barplot che mostra il winrate per ciascuno degli Hero}
+\label{winrate_totale_sint}
+\end{center}
+\end{figure}
+Nella figura~\ref{winrate_totale_sint} è riportato il barplot per il winrate di ciascuno degli Hero, anche all'interno del dataset sintetico è presente una certa variabilità del winrate. In particolare la varianza del winrate è pari a 0.005914222. Seppure non c'è una forte varianza quest'ultima risulta essere maggiore rispetto a quella del dataset non sintetico.
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.85]{./FigureSintetico/frequenze_winrate_ranked.svg}
+\caption{Barplot che mostra il winrate per ciascuno degli Hero nelle partite ranked}
+\label{winrate_ranked_sintetico}
+\includesvg[scale=0.85]{./FigureSintetico/frequenze_winrate_unranked.svg}
+\caption{Barplot che mostra il winrate per ciascuno degli Hero nelle partite unranked}
+\label{winrate_unranked_sintetico}
+\end{center}
+\end{figure}
+Anche per il dataset sintetico è stato deciso di analizzare in maniera distinta le partite ranked da quelle unranked. La varianza degli hero nelle partite ranked è 0.00697383 e quella delle partite unranked è 0.006019371. Non c'è una particolare variazione neanche in questo caso. Non si notano notevoli differenze neanche in questo caso tra ranked e unranked andando a guardare i barplot nelle figure~\ref{winrate_ranked_sintetico}~\ref{winrate_unranked_sintetico}.
+Anche per il dataset sintetico si sono analizzate le distribuzioni dei winrate per le partite ranked e quelle unranked(figura~\ref{distribuzione_winrate_ranked_unranked_sintetico}). In questo caso si può notare un notevole peggioramento nella distribuzione rispetto al winrate degli Hero rispetto al dataset originale. Difatti, si hanno ben il 47\% degli Hero per le ranked e il 57\% per le unranked che si trovano fuori dal range (0.45, 0.55). Di conseguenza, il gioco risulta avere addirittura una maggiore variabilità per quanto concerne il winrate degli Hero. 
+\begin{figure}[htbp]
+\begin{center}
+\includesvg[scale=0.75]{./FigureSintetico/distribuzione_winrate_ranked_unranked_sintetico.svg}
+\caption{Figura che mostra i barplot per la distribuzione del winrate nelle partite ranked e in quelle unranked}
+\label{distribuzione_winrate_ranked_unranked_sintetico}
+\end{center}
+\end{figure}

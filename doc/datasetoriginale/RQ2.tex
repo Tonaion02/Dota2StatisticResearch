@@ -1,0 +1,118 @@
+Durante le fasi preliminari di pulizia del dataset, si è compreso che il dataset era composto da un mix di partite ranked e unranked. \\
+All'interno della seguente research question si cercherà di comprendere se esistono delle differenze notevoli tra il pickrate e il winrate tra le partite ranked e quelle unranked. L'interesse nel rispondere a questa research question è dato dal fatto che ci potrebbe permettere di verificare se sussistono delle differenze nel modo in cui i giocatori approcciano le partite classificate e quelle non classificate. \\
+Si potrebbe infatti verificare che dato che all'interno delle partite ranked c'è la possibilità di guadagnare o perdere dei punti in una classifica i giocatori compiano delle scelte più "sicure". A differenza delle partite non classificate che gli potrebbero dare la possibilità di esplorare nuove possibilità. \\
+Questo si rifletterebbe sul fatto che la scelta dei campioni varia particolarmente tra le partite classificate e non classificate. Per verificare se questo avviene, si è deciso di effettuare un analisi del pickrate per confrontare come varia tra le due modalità. \\
+All'interno della research question 1 abbiamo già notato alcune differenze tra il winrate all'interno delle partite ranked e unranked, confrontare le differenze tra questi due è interessante per verificare se effettivamente alcuni campioni funzionano meglio all'interno di un contesto di classificate o meno. \\
+La definizione precisa di pickrate è il rapporto tra le partite in cui viene scelto un determinato Hero rispetto al numero totale di partite. All'interno della figura~\ref{distribuzione_pick_hero_ranked_unranked} sono rappresentati i pickrate degli Hero nelle partite ranked e unranked.
+\begin{figure}[htbp]
+\begin{center}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=0.9]{./Figure/differenze_ranked_unranked/distribuzione_pick_hero_ranked_unranked.svg}
+\caption{Nella seguente figura sono mostrati i barplot per il pickrate degli hero nelle partite ranked e unranked}
+\label{distribuzione_pick_hero_ranked_unranked}
+\end{center}
+\end{figure}
+Per rappresentare al meglio la differenza tra il pickrate nelle due modalità, si è deciso di rappresentare tale differenza attraverso il seguente barplot~\ref{differenza_distribuzione_pickrate}. All'interno del grafico è stata riportata una linea rossa che rappresenta il margine secondo il quale non consideriamo sostanziale le differenze dei pickrate dei campioni(2.5\%). Fissato questo margine, sembrerebbe che non ci sono grandi differenze tra il pickrate degli Hero nelle due modalità, se non per qualcuno in particolare per cui si nota addirittura una differenza del 10\%.
+\begin{figure}[htbp]
+\begin{center}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=1.1]{./Figure/differenze_ranked_unranked/differenza_distribuzione_pickrate.svg}
+\caption{Nella seguente figura è mostrato il barplot per la differenza del pickrate degli hero nelle partite ranked e unranked}
+\label{differenza_distribuzione_pickrate}
+\end{center}
+\end{figure}
+Nella seguente figura~\ref{boxplot_pickrate} sono riportati i boxplot ad intaglio per il pickrate degli hero nelle partite ranked e unranked. Da questo grafico, oltre a notare la presenza di alcuni outlier, è possibile notare che le tacche dei due boxplot ad intaglio sembrano sovrapporsi tra di loro. \\
+Calcolando l'intervallo di confidenza, questa prima impressione viene confermata(-0.03192,  0.01719).
+Si può quindi concludere, che effettivamente come suggerito dai boxplot ad intaglio non c'è una differenza statistica evidente tra le mediane dei due campioni. 
+\begin{figure}[htbp]
+\begin{center}
+% \hspace*{-0.15\linewidth}
+\includesvg[scale=0.9]{./Figure/differenze_ranked_unranked/boxplot_pickrate.svg}
+\caption{Nella seguente figura sono mostrati i boxplot ad intaglio per il pickrate nelle partite ranked e unranked}
+\label{boxplot_pickrate}
+\end{center}
+\end{figure}
+Per confrontare, ulteriormente il pickrate nelle modalità classificata e non classificata, sono stati confrontati gli indici di sintesi che sono riportati all'interno della seguente figura~\ref{indici_sintesi_pickrate}. Si può notare che la media è identica, la mediana è molto simile, confermando le informazioni che avevamo ricavato dal boxplot ad intaglio e anche deviazione standard e varianza, risultano essere molto simili.
+\begin{figure}[htbp]
+\begin{center}
+\hspace*{-0.1\linewidth}
+\includesvg[scale=0.9]{./Figure/differenze_ranked_unranked/distribuzione_pick_ranked_unranked.svg}
+\caption{Nella seguente figura sono mostrati gli istogrammi del pickrate per le partite ranked e quelle unranked}
+\label{distribuzione_pick_ranked_unranked}
+\end{center}
+\end{figure}
+Come si può inoltre notare a partire dai grafici nella figura ~\ref{distribuzione_pick_ranked_unranked} anche la forma della distribuzione del pickrate, non varia particolarmente tra le partite ranked e quelle unranked. A conferma di questa impressione restituita dai grafici sono stati riportati i valori di skewness e curtosi all'interno della seguente tabella~\ref{indici_simmetrici_pickrate}. Per quanto riguarda la skewness si può notare che hanno entrambe un valore maggiore di 0 e questo implica che c'è un asimmetria positiva in entrambe le distribuzioni. I valori di skewness, oltre che essere entrambi maggiori di 0, sono anche molto simili tra di loro. Per quanto riguarda la curtosi è presente una certa variazione nei due casi. Nonostante questa variazione, le distribuzioni sono entrambe leptocurtiche dato che hanno una curtosi maggiore di 3.
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici di sintesi per il pickrate per le partite ranked e unranked}
+\label{indici_sintesi_pickrate}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+media               &  0.08850  &   0.08850 \\ \hline
+mediana             &  0.06006  &   0.06743 \\ \hline
+deviazione standard &  0.07793  &   0.07987 \\ \hline
+varianza            &  0.00607  &   0.00638 \\ \hline
+\end{tabular}
+\end{table}
+Riassumendo quindi le informazioni che sono state mostrate riguardo l'analisi del pickrate nelle due modalità, si può concludere che non sembrano sussistere delle differenze sostanziali riguardanti il pickrate. \\
+E' importante sottolineare però che se gli indici di sintesi hanno valori simili e le distribuzioni hanno anch'esse una forma simile, sussistono alcune notevoli differenze per alcuni Hero che è possibile notare all'interno della figura~\ref{differenza_distribuzione_pickrate}.
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici simmetrici per pickrate nelle partite ranked e unranked}
+\label{indici_simmetrici_pickrate}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+skewness    &  1.73976  &   1.89565     \\ \hline
+curtosi     &  5.95936  &   7.39879     \\ \hline
+\end{tabular}
+\end{table}
+Si procede quindi all'analisi del winrate per verificare se ci sono delle differenze interessanti tra i due campioni analizzati. Si osservano anche questa volta attraverso i barplot il winrate delle partite unranked e delle partite ranked~\ref{winrate_ranked} ~\ref{winrate_unranked}. \\
+Durante la research question 1, si è determinato che lo squilibrio valeva sia per le partite ranked che per quelle unranked. L'analisi che viene riportata di seguito serve ora per determinare se ci sono Hero per cui è presente una differenza significativa del winrate tra le due modalità. \\ 
+\begin{figure}[htbp]
+\begin{center}
+% \hspace*{-0.15\linewidth}
+\includesvg[scale=0.9]{./Figure/differenze_ranked_unranked/boxplot_winrate.svg}
+\caption{Nella seguente figura sono mostrati i boxplot ad intaglio per il winrate ranked e quelle unranked}
+\label{boxplot_winrate}
+\end{center}
+\end{figure}
+All'interno della figura~\ref{boxplot_winrate} sono riportati i boxplot ad intaglio del winrate. A partire da questo grafico è possibile notare un basso numero di outlier rispetto al caso del pickrate. Questo è un risultato prevedibile, dato il fatto che una minima variazione nel winrate ha un forte impatto sull'andamento del gioco, è ovvio che i valori del winrate non possano allontanarsi singolarmente troppo rispetto alla media.
+Inoltre, si può notare come le due mediane non siano statisticamente così differenti tra di loro. Questo è confermato dall'intervallo di confidenza(-0.009455, 0.040147), che ci conferma che le due mediane non sono statisticamente così differenti. \\
+Anche gli indici di sintesi riportati all'interno della seguente tabella~\ref{indici_sintesi_winrate} suggeriscono che non ci sono differenze sostanziali tra le due modalità di gioco. E' possibile osservare all'interno della seguente figura~\ref{distribuzione_winrate_ranked_unranked} i grafici che mostrano la distribuzione del winrate all'interno delle due modalità. Anche in questo caso le due distribuzioni non mostrano sensibili differenze. Questo è confermato dalla curtosi e dalla skewness delle distribuzioni che sono riassunte all'interno della seguente tabella ~\ref{indici_simmetrici_winrate}. La skewness ci mostra che in entrambi i casi abbiamo un asimmetria destra, difatti i due valori entrambi negativi. La curtosi invece ci dice che sono entrambe leptocurtiche dato che i due valori sono entrambi maggiori di 3. In questo caso però la distribuzione nel caso ranked è al limite tra essere leptocurtica e normocurtica. \\  
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici di sintesi per il winrate per le partite ranked e unranked}
+\label{indici_sintesi_winrate}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+media               &  0.48950  &  0.48340 \\ \hline
+mediana             &  0.50330  &  0.48790 \\ \hline
+deviazione standard &  0.06922  &  0.06819 \\ \hline
+varianza            &  0.00479  &  0.00465 \\ \hline
+\end{tabular}
+\end{table}
+Analizzando solamente gli indici e osservando le distribuzioni, sembrerebbero non sussistere delle grandi differenze tra i campioni utilizzati. E' da sottolineare però che gli strumenti utilizzati fino ad ora, ci avrebbero permesso solamente di osservare dei veri e propri fenomeni di massa che sussistevano in una modalità di gioco piuttosto che un altra. Si ritiene che per quanto riguarda lo studio del winrate, non siano interessanti solamente delle differenze macroscopiche tra i due campioni ma anche delle differenze microscopiche e che interessano quindi i singoli Hero. \\
+Si è deciso quindi di riportare in maniera sintetica le differenze che sussistono nei winrate dei singoli Hero attraverso il grafico in figura~\ref{differenza_winrate_ranked_unranked}. Anche in questo caso è stato fissato un valore a partire dal quale la differenza tra i winrate comincia a diventare significativa (5\%). E' possibile notare come per un grande numero di Hero(37.17\%) la differenza superi il valore fissato. \\
+Riassumendo quindi, rispetto ai risultati ottenuti, non è stato possibile individuare delle differenze significative nei pickrate per le due modalità. Per quanto riguarda il winrate invece, seppure non sono emerse delle differenze significative nelle distribuzioni del winrate, sussistono invece delle differenze che possono essere ritenuti significative per quanto riguarda i singoli campioni. Si può quindi concludere che ci sono degli Hero che sembrano molto più funzionanti rispetto ad altri in ranked rispetto che in unranked.
+\begin{table}
+\centering
+\caption{Tabella riassuntiva degli indici simmetrici per winrate nelle partite ranked e unranked}
+\label{indici_simmetrici_winrate}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+skewness    &  -0.57398  &    -0.78510    \\ \hline
+curtosi     &  3.259576  &    4.24417    \\ \hline
+\end{tabular}
+\end{table}
+\begin{figure}[htbp]
+\begin{center}
+\hspace*{-0.15\linewidth}
+\includesvg[scale=0.85]{./Figure/differenze_ranked_unranked/differenza_winrate_ranked_unranked.svg}
+\caption{Nella seguente figura è riportato il grafico dove è rappresenta la differenza del winrate tra le partite ranked e quelle unranked}
+\label{differenza_winrate_ranked_unranked}
+\end{center}
+\end{figure}

@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Dota2OfficialSite}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.dota2.com}}
+      \field{title}{Dota2 Sito Ufficiale}
+    \endentry
+    \entry{WinRateLol}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.itero.gg/articles/side-selection}}
+      \field{title}{LoL: How Much Does Side Selection Matter, Really?}
+    \endentry
+    \entry{WinRateDota2}{misc}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://win.gg/news/radiant-side-has-a-massive-advantage-in-the-current-dota-2-meta/}}
+      \field{title}{Radiant side has a massive advantage in the current Dota 2 meta}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

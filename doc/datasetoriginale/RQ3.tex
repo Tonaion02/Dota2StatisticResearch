@@ -1,0 +1,20 @@
+Come spiegato all'inizio in Dota2 i giocatori vengono assegnati a uno dei due team Radiant e Dire e l'obbiettivo durante una partita è quello di difendere il proprio lato della mappa ed espugnare la base avversaria. \\
+La mappa di gioco è quindi divisa in due parti che non risultano però essere totalmente simmetriche. Le asimmetrie sulla mappa, hanno suggerito spesso ai giocatori quelli che sono dei vantaggi tattici che è possibile sfruttare. Alcune di queste asimmetrie, rendono la navigazione della mappa più sicura, altre rendono alcuni obbiettivi più facili da raggiungere per un team piuttosto che un altro. \\
+Una domanda che quindi può sorgere in merito a Dota2 è se esiste effettivamente un lato della mappa che risulta essere vantaggioso rispetto ad un altro, e sopratutto se questo vantaggio si traduce in un winrate maggiore per uno dei due lati. \\
+Questa domanda riguarda in realtà non solo Dota2, ma l'intero genere dei MOBA. All'interno del seguente articolo~\cite{WinRateLol} è riportata una discussione tecnica e tattica su quelli che sono i vantaggi nel trovarsi in un lato della mappa piuttosto che un altro in League Of Legends, un altro gioco MOBA molto famoso. In tale articolo, è presente una citazione alla frase del coach del team competitivo T1 a seguito di una sconfitta in un torneo competitivo mondiale. Il coach dei T1 afferma quanto segue:"\textit{The reason we lost was, as I just said, because we weren’t able to play on the blue side three times}". 
+Il fatto che un coach di un team competitivo mondiale attribuisca il motivo della sconfitta del suo team al lato della mappa assegnato suggerisce che anche questo genere di fattori può notevolmente influire su quello che è lo stato del gioco, rendendo il gioco meno bilanciato. \\
+Nella seguente research question si cerca di analizzare il dataset per determinare se è possibile che ci sia un vantaggio rispetto al team in cui si gioca e quindi al lato della mappa che viene assegnato.
+\begin{table}
+\centering
+\caption{Tabella riassuntiva del winrate di ciascuno dei due team per le partite ranked e unranked}
+\label{winrate_team}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ranked} & \multicolumn{1}{l|}{unranked} \\ \hline
+team 1  &  47.61\%  &   48.43\% \\ \hline
+team 2  &  52.39\%  &   51.56\%  \\ \hline
+\end{tabular}
+\end{table}
+Nel tentativo di determinare se esiste un vantaggio simile, si è calcolato il winrate di ciascuno dei due team per le classificate e per le non classificate, riportandolo all'interno della seguente tabella~\ref{winrate_team}. All'interno della tabella sono stati riportati semplicemente team 1 e team 2, questo perché non è possibile risalire a quale dei due team il dataset si riferisse tra Radian e Dire. Tuttavia a noi interessa semplicemente misurare la differenza di winrate tra i due team nelle partite ranked e nelle partite unranked.\\
+Il team 2 sembra essere in vantaggio in maniera particolare all'interno delle partite classificate. E' importante notare che anche una variazione minima del winrate in questo caso è un elemento critico per il bilanciamento del gioco. Sono presenti articoli~\cite{WinRateDota2} che cercano di analizzare questo aspetto del gioco dove il winrate del 51.6\% dei Radian viene considerato un vantaggio netto per questo team. \\
+Si può quindi affermare che rispetto ai due campioni osservati sussiste una differenza di winrate che suggerisce che uno dei due team sia più avvantaggiato rispetto ad un altro.

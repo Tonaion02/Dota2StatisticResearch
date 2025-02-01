@@ -1,0 +1,2867 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.25)  31 JAN 2025 23:05
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+(C:\utils\miktex\tex/latex/base\article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(C:\utils\miktex\tex/latex/base\size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(C:\utils\miktex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(C:\utils\miktex\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\utils\miktex\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.
+sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\utils\miktex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\utils\miktex\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestr
+ing.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count270
+)
+(C:\utils\miktex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count271
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
+
+(C:\utils\miktex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count274
+
+(C:\utils\miktex\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count275
+
+(C:\utils\miktex\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen143
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count276
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (C:\utils\miktex\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\utils\miktex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(C:\utils\miktex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilechec
+k.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounte
+r.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip51
+) (C:\utils\miktex\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+(C:\utils\miktex\tex/latex/listings\listings.sty
+\lst@mode=\count282
+\lst@gtempboxa=\box52
+\lst@token=\toks20
+\lst@length=\count283
+\lst@currlwidth=\dimen146
+\lst@column=\count284
+\lst@pos=\count285
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count286
+\lst@lineno=\count287
+\lst@maxwidth=\dimen149
+
+(C:\utils\miktex\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(C:\utils\miktex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count288
+\lst@skipnumbers=\count289
+\lst@framebox=\box53
+)
+(C:\utils\miktex\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(C:\utils\miktex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\utils\miktex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\utils\miktex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+)
+(C:\utils\miktex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count290
+\multirow@dima=\skip53
+\bigstrutjot=\dimen150
+)
+(C:\utils\miktex\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(C:\utils\miktex\tex/latex/tools\array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen151
+\ar@mcellbox=\box54
+\extrarowheight=\dimen152
+\NC@list=\toks21
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen153
+\TX@old@table=\dimen154
+\TX@old@col=\dimen155
+\TX@target=\dimen156
+\TX@delta=\dimen157
+\TX@cols=\count291
+\TX@ftn=\toks22
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/01/07 v5.1.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip56
+\f@nch@offset@elh=\skip57
+\f@nch@offset@erh=\skip58
+\f@nch@offset@olh=\skip59
+\f@nch@offset@orh=\skip60
+\f@nch@offset@elf=\skip61
+\f@nch@offset@erf=\skip62
+\f@nch@offset@olf=\skip63
+\f@nch@offset@orf=\skip64
+\f@nch@height=\skip65
+\f@nch@footalignment=\skip66
+\f@nch@widthL=\skip67
+\f@nch@widthC=\skip68
+\f@nch@widthR=\skip69
+\@temptokenb=\toks23
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\utils\miktex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count292
+\Gm@cntv=\count293
+\c@Gm@tempcnt=\count294
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks24
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\utils\miktex\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2024/11/24 v2.1d lastpage: 2.09 or 2e? (HMM)
+
+(C:\utils\miktex\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2024/11/24 v2.1d Decide which 2e lastpage version to use (H
+MM)
+
+(C:\utils\miktex\tex/latex/lastpage\lastpagemodern.sty
+Package: lastpagemodern 2024-11-24 v2.1d Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count295
+) 
+)) (C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
+\FN@temptoken=\toks25
+\footnotemargin=\dimen166
+\@outputbox@depth=\dimen167
+Package footmisc Info: Declaring symbol style bringhurst on input line 699.
+Package footmisc Info: Declaring symbol style chicago on input line 707.
+Package footmisc Info: Declaring symbol style wiley on input line 716.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 747.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
+.
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/svg\svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile-hook.st
+y
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+
+ (C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+) (C:\utils\miktex\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(C:\utils\miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\utils\miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\utils\miktex\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\utils\miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(C:\utils\miktex\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\utils\miktex\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+\c@svg@param@lastpage=\count296
+\svg@box=\box56
+\c@svg@param@currpage=\count297
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent-nome
+tadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)))
+(C:\utils\miktex\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\utils\miktex\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\utils\miktex\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen170
+\pgfutil@tempdimb=\dimen171
+)
+(C:\utils\miktex\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box57
+)
+(C:\utils\miktex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\utils\miktex\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\utils\miktex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\utils\miktex\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(C:\utils\miktex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen172
+\pgf@y=\dimen173
+\pgf@xa=\dimen174
+\pgf@ya=\dimen175
+\pgf@xb=\dimen176
+\pgf@yb=\dimen177
+\pgf@xc=\dimen178
+\pgf@yc=\dimen179
+\pgf@xd=\dimen180
+\pgf@yd=\dimen181
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count298
+\c@pgf@countb=\count299
+\c@pgf@countc=\count300
+\c@pgf@countd=\count301
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count302
+
+(C:\utils\miktex\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\utils\miktex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\utils\miktex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\utils\miktex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count303
+\pgfsyssoftpath@bigbuffer@items=\count304
+)
+(C:\utils\miktex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\utils\miktex\tex/generic/babel\babel.sty
+Package: babel 2025/01/01 v25.1 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count305
+\U@D=\dimen182
+\l@unhyphenated=\language79
+
+(C:\utils\miktex\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count306
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\utils\miktex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\utils\miktex\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/babel-italian\italian.ldf
+Language: italian 2024/10/10 v.1.5.01 Italian support for the babel system
+\it@lettering=\count307
+\it@doublequoteactive=\count308
+\it@ISOcompliance=\count309
+))
+(C:\utils\miktex\tex/generic/babel/locale/it\babel-italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
+)
+(C:\utils\miktex\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2024/12/12 v3.2 Micro-typographical refinements (RS)
+\MT@toks=\toks33
+\MT@tempbox=\box58
+\MT@count=\count310
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1075.
+LaTeX Info: Redefining \leftprotrusion on input line 1076.
+\MT@prot@toks=\toks34
+LaTeX Info: Redefining \rightprotrusion on input line 1095.
+LaTeX Info: Redefining \textls on input line 1437.
+\MT@outer@kern=\dimen183
+LaTeX Info: Redefining \microtypecontext on input line 2041.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2058.
+\MT@listname@count=\count311
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.d
+ef
+File: microtype-pdftex.def 2024/12/12 v3.2 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip70
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2024/12/12 v3.2 microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3053.
+) (C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip71
+\subfigcapskip=\skip72
+\subfigcaptopadj=\dimen184
+\subfigbottomskip=\skip73
+\subfigcapmargin=\dimen185
+\subfiglabelskip=\skip74
+\c@subfigure=\count312
+\c@lofdepth=\count313
+\c@subtable=\count314
+\c@lotdepth=\count315
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip75
+\subfig@bottom=\skip76
+)
+(C:\utils\miktex\tex/latex/graphics\epsfig.sty
+Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen186
+\epsfysize=\dimen187
+)
+(C:\utils\miktex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip77
+
+For additional information on amsmath, use the `?' option.
+(C:\utils\miktex\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\utils\miktex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen188
+))
+(C:\utils\miktex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen189
+)
+(C:\utils\miktex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count316
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count317
+\leftroot@=\count318
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count319
+\DOTSCASE@=\count320
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen190
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count321
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count322
+\dotsspace@=\muskip18
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
+\tag@help=\toks36
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
+\andhelp@=\toks37
+\eqnshift@=\dimen191
+\alignsep@=\dimen192
+\tagshift@=\dimen193
+\tagwidth@=\dimen194
+\totwidth@=\dimen195
+\lineht@=\dimen196
+\@envbody=\toks38
+\multlinegap=\skip78
+\multlinetaggap=\skip79
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\utils\miktex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\utils\miktex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count328
+
+(C:\utils\miktex\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip80
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count329
+)
+(C:\utils\miktex\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip81
+\skiplinenumber=\skip82
+\skiprule=\skip83
+\skiphlne=\skip84
+\skiptext=\skip85
+\skiplength=\skip86
+\algomargin=\skip87
+\skipalgocfslide=\skip88
+\algowidth=\dimen197
+\inoutsize=\dimen198
+\inoutindent=\dimen199
+\interspacetitleruled=\dimen256
+\interspacealgoruled=\dimen257
+\interspacetitleboxruled=\dimen258
+\algocf@ruledwidth=\skip89
+\algocf@inoutbox=\box61
+\algocf@inputbox=\box62
+\AlCapSkip=\skip90
+\AlCapHSkip=\skip91
+\algoskipindent=\skip92
+\algocf@nlbox=\box63
+\algocf@hangingbox=\box64
+\algocf@untilbox=\box65
+\algocf@skipuntil=\skip93
+\algocf@capbox=\box66
+\algocf@lcaptionbox=\skip94
+\algoheightruledefault=\skip95
+\algoheightrule=\skip96
+\algotitleheightruledefault=\skip97
+\algotitleheightrule=\skip98
+\c@algocfline=\count330
+\c@algocfproc=\count331
+\c@algocf=\count332
+\algocf@algoframe=\box67
+\algocf@algobox=\box68
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/fancybox\fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box69
+\shadowsize=\dimen259
+\@Sbox=\box70
+\do@VerbBox=\toks40
+\the@fancyput=\toks41
+\this@fancyput=\toks42
+\EndVerbatimTokens=\toks43
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read4
+) (C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+
+(C:\utils\miktex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\utils\miktex\tex/generic/xkeyval\xkeyval.tex
+(C:\utils\miktex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks44
+\XKV@tempa@toks=\toks45
+)
+\XKV@depth=\count333
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\utils\miktex\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\utils\miktex\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\utils\miktex\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\utils\miktex\tex/generic/pgf/math\pgfmath.code.tex
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen260
+\pgfmath@count=\count334
+\pgfmath@box=\box71
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
+)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.
+tex) (C:\utils\miktex\tex/generic/pgf/math\pgfmathcalc.code.tex)
+(C:\utils\miktex\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count335
+))
+(C:\utils\miktex\tex/generic/pgf/math\pgfint.code.tex)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen261
+\pgf@picmaxx=\dimen262
+\pgf@picminy=\dimen263
+\pgf@picmaxy=\dimen264
+\pgf@pathminx=\dimen265
+\pgf@pathmaxx=\dimen266
+\pgf@pathminy=\dimen267
+\pgf@pathmaxy=\dimen268
+\pgf@xx=\dimen269
+\pgf@xy=\dimen270
+\pgf@yx=\dimen271
+\pgf@yy=\dimen272
+\pgf@zx=\dimen273
+\pgf@zy=\dimen274
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen275
+\pgf@path@lasty=\dimen276
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen277
+\pgf@shorten@start@additional=\dimen278
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count336
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen279
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen280
+\pgf@pt@y=\dimen281
+\pgf@pt@temp=\dimen282
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen283
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen284
+\pgf@sys@shading@range@num=\count337
+\pgf@shadingcount=\count338
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box75
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\utils\miktex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box76
+)
+(C:\utils\miktex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\utils\miktex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
+)
+(C:\utils\miktex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\utils\miktex\tex/latex/pgf/utilities\pgffor.sty
+(C:\utils\miktex\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\utils\miktex\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\utils\miktex\tex/latex/pgf/math\pgfmath.sty
+(C:\utils\miktex\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\utils\miktex\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(C:\utils\miktex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\utils\miktex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count339
+\pgfplotmarksize=\dimen289
+)
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikz@lastmovetox=\dimen294
+\tikz@lastmovetoy=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
+
+(C:\utils\miktex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
+)
+\tikz@expandcount=\count347
+
+(C:\utils\miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopath
+s.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\utils\miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositi
+oning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\utils\miktex\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count348
+\calc@Bcount=\count349
+\calc@Adimen=\dimen298
+\calc@Bdimen=\dimen299
+\calc@Askip=\skip99
+\calc@Bskip=\skip100
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count350
+\calc@Cskip=\skip101
+)
+\c@@todonotes@numberoftodonotes=\count351
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/moreverb\moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+
+(C:\utils\miktex\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read5
+)
+\tab@position=\count352
+\tab@size=\count353
+\listing@line=\count354
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen300
+\captionmargin=\dimen301
+\caption@leftmargin=\dimen302
+\caption@rightmargin=\dimen303
+\caption@width=\dimen304
+\caption@indent=\dimen305
+\caption@parindent=\dimen306
+\caption@hangindent=\dimen307
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count355
+\c@continuedfloat=\count356
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+)
+(C:\utils\miktex\tex/latex/tools\multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count357
+\mult@box=\box81
+\multicol@leftmargin=\dimen308
+\c@unbalance=\count358
+\c@collectmore=\count359
+\doublecol@number=\count360
+\multicoltolerance=\count361
+\multicolpretolerance=\count362
+\full@width=\dimen309
+\page@free=\dimen310
+\premulticols=\dimen311
+\postmulticols=\dimen312
+\multicolsep=\skip102
+\multicolbaselineskip=\skip103
+\partial@page=\box82
+\last@line=\box83
+\mc@boxedresult=\box84
+\maxbalancingoverflow=\dimen313
+\mult@rightbox=\box85
+\mult@grightbox=\box86
+\mult@firstbox=\box87
+\mult@gfirstbox=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\c@minrows=\count363
+\c@columnbadness=\count364
+\c@finalcolumnbadness=\count365
+\last@try=\dimen314
+\multicolovershoot=\dimen315
+\multicolundershoot=\dimen316
+\mult@nat@firstbox=\box125
+\colbreak@box=\box126
+\mc@col@check@num=\count366
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+LaTeX Info: Redefining \subref on input line 189.
+Package subcaption Info: The counter `subfigure' was already defined by
+(subcaption)             an unknown document class or package on input line 238
+.
+Package subcaption Info: The counter `subtable' was already defined by
+(subcaption)             an unknown document class or package on input line 238
+.
+)
+(C:\utils\miktex\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count367
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count368
+\c@listtotal=\count369
+\c@listcount=\count370
+\c@liststart=\count371
+\c@liststop=\count372
+\c@citecount=\count373
+\c@citetotal=\count374
+\c@multicitecount=\count375
+\c@multicitetotal=\count376
+\c@instcount=\count377
+\c@maxnames=\count378
+\c@minnames=\count379
+\c@maxitems=\count380
+\c@minitems=\count381
+\c@citecounter=\count382
+\c@maxcitecounter=\count383
+\c@savedcitecounter=\count384
+\c@uniquelist=\count385
+\c@uniquename=\count386
+\c@refsection=\count387
+\c@refsegment=\count388
+\c@maxextratitle=\count389
+\c@maxextratitleyear=\count390
+\c@maxextraname=\count391
+\c@maxextradate=\count392
+\c@maxextraalpha=\count393
+\c@abbrvpenalty=\count394
+\c@highnamepenalty=\count395
+\c@lownamepenalty=\count396
+\c@maxparens=\count397
+\c@parenlevel=\count398
+\blx@tempcnta=\count399
+\blx@tempcntb=\count400
+\blx@tempcntc=\count401
+\c@blx@maxsection=\count402
+\blx@maxsegment@0=\count403
+\blx@notetype=\count404
+\blx@parenlevel@text=\count405
+\blx@parenlevel@foot=\count406
+\blx@sectionciteorder@0=\count407
+\blx@sectionciteorderinternal@0=\count408
+\blx@entrysetcounter=\count409
+\blx@biblioinstance=\count410
+\labelnumberwidth=\skip104
+\labelalphawidth=\skip105
+\biblabelsep=\skip106
+\bibitemsep=\skip107
+\bibnamesep=\skip108
+\bibinitsep=\skip109
+\bibparsep=\skip110
+\bibhang=\skip111
+\blx@bcfin=\read6
+\blx@bcfout=\write5
+\blx@langwohyphens=\language80
+\c@mincomprange=\count411
+\c@maxcomprange=\count412
+\c@mincompwidth=\count413
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\utils\miktex\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count414
+\c@savedafterword=\count415
+\c@annotator=\count416
+\c@savedannotator=\count417
+\c@author=\count418
+\c@savedauthor=\count419
+\c@bookauthor=\count420
+\c@savedbookauthor=\count421
+\c@commentator=\count422
+\c@savedcommentator=\count423
+\c@editor=\count424
+\c@savededitor=\count425
+\c@editora=\count426
+\c@savededitora=\count427
+\c@editorb=\count428
+\c@savededitorb=\count429
+\c@editorc=\count430
+\c@savededitorc=\count431
+\c@foreword=\count432
+\c@savedforeword=\count433
+\c@holder=\count434
+\c@savedholder=\count435
+\c@introduction=\count436
+\c@savedintroduction=\count437
+\c@namea=\count438
+\c@savednamea=\count439
+\c@nameb=\count440
+\c@savednameb=\count441
+\c@namec=\count442
+\c@savednamec=\count443
+\c@translator=\count444
+\c@savedtranslator=\count445
+\c@shortauthor=\count446
+\c@savedshortauthor=\count447
+\c@shorteditor=\count448
+\c@savedshorteditor=\count449
+\c@labelname=\count450
+\c@savedlabelname=\count451
+\c@institution=\count452
+\c@savedinstitution=\count453
+\c@lista=\count454
+\c@savedlista=\count455
+\c@listb=\count456
+\c@savedlistb=\count457
+\c@listc=\count458
+\c@savedlistc=\count459
+\c@listd=\count460
+\c@savedlistd=\count461
+\c@liste=\count462
+\c@savedliste=\count463
+\c@listf=\count464
+\c@savedlistf=\count465
+\c@location=\count466
+\c@savedlocation=\count467
+\c@organization=\count468
+\c@savedorganization=\count469
+\c@origlocation=\count470
+\c@savedoriglocation=\count471
+\c@origpublisher=\count472
+\c@savedorigpublisher=\count473
+\c@publisher=\count474
+\c@savedpublisher=\count475
+\c@language=\count476
+\c@savedlanguage=\count477
+\c@origlanguage=\count478
+\c@savedoriglanguage=\count479
+\c@pageref=\count480
+\c@savedpageref=\count481
+\shorthandwidth=\skip112
+\shortjournalwidth=\skip113
+\shortserieswidth=\skip114
+\shorttitlewidth=\skip115
+\shortauthorwidth=\skip116
+\shorteditorwidth=\skip117
+\locallabelnumberwidth=\skip118
+\locallabelalphawidth=\skip119
+\localshorthandwidth=\skip120
+\localshortjournalwidth=\skip121
+\localshortserieswidth=\skip122
+\localshorttitlewidth=\skip123
+\localshortauthorwidth=\skip124
+\localshorteditorwidth=\skip125
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\utils\miktex\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\utils\miktex\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count482
+\c@textcitetotal=\count483
+\c@textcitemaxnames=\count484
+\c@biburlbigbreakpenalty=\count485
+\c@biburlbreakpenalty=\count486
+\c@biburlnumpenalty=\count487
+\c@biburlucpenalty=\count488
+\c@biburllcpenalty=\count489
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count490
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(C:\utils\miktex\tex/latex/biblatex\blx-natbib.def
+File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\utils\miktex\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\utils\miktex\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count491
+\c@bbx:relatedtotal=\count492
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\utils\miktex\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\utils\miktex\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\utils\miktex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-12-25 L3 programming layer (loader) 
+
+(C:\utils\miktex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count493
+\l__pdf_internal_box=\box127
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-12-25 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\utils\miktex\tex/latex/biblatex\blx-case-expl3.sty
+(C:\utils\miktex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+Package hyperref Info: Option `colorlinks' set `true' on input line 88.
+
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count494
+\@quotereset=\count495
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+Package hyperref Info: Link coloring ON on input line 97.
+ (main.out) (main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+\c@lstlisting=\count496
+
+(C:\utils\miktex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count497
+\scratchdimen=\dimen317
+\scratchbox=\box128
+\nofMPsegments=\count498
+\nofMParguments=\count499
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count500
+\MPscratchDim=\dimen318
+\MPnumerator=\count501
+\makeMPintoPDFobject=\count502
+\everyMPtoPDFconversion=\toks54
+) (C:\utils\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\utils\miktex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 736.64186pt, 36.135pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=706.64186pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \it@ocap on input line 97.
+LaTeX Info: Redefining \it@ccap on input line 97.
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting
+italian.ldf    on input line 97.
+
+LaTeX Info: Redefining \microtypecontext on input line 97.
+Package microtype Info: Applying patch `item' on input line 97.
+Package microtype Info: Applying patch `toc' on input line 97.
+Package microtype Info: Applying patch `eqnum' on input line 97.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 97.
+
+Package microtype Info: Applying patch `verbatim' on input line 97.
+LaTeX Info: Redefining \microtypesetup on input line 97.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 97.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 97.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'italian'...
+Package biblatex Info: ... file 'italian.lbx' found.
+(C:\utils\miktex\tex/latex/biblatex/lbx\italian.lbx
+File: italian.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\utils\miktex\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 97.
+Package biblatex Info: Reference segment=0 on input line 97.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[1
+
+{C:/Users/Tonaion/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (C:\utils\miktex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(C:\utils\miktex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\Tonaion\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+))
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.118 \newpage
+               [1] (introduzione.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+Package svg Info: Last page of `./svg-inkscape/frequenze_gamemode_row_svg-tex.p
+df' is 1 on input line 36.
+(svg-inkscape/frequenze_gamemode_row_svg-tex.pdf_tex
+<./svg-inkscape/frequenze_gamemode_row_svg-tex.pdf, id=145, page=1, 417.35927pt
+ x 332.44202pt>
+File: ./svg-inkscape/frequenze_gamemode_row_svg-tex.pdf Graphic file (type pdf)
+
+<use ./svg-inkscape/frequenze_gamemode_row_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/frequenze_gamemode_row_svg-tex.pdf , pa
+ge1 used on input line 56.
+(pdftex.def)             Requested size: 271.28098pt x 216.08981pt.
+)
+Overfull \hbox (19.18687pt too wide) in paragraph at lines 35--37
+ []|  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/frequenze_gametype_row_svg-tex.p
+df' is 1 on input line 40.
+(svg-inkscape/frequenze_gametype_row_svg-tex.pdf_tex
+<./svg-inkscape/frequenze_gametype_row_svg-tex.pdf, id=147, page=1, 417.35927pt
+ x 332.44202pt>
+File: ./svg-inkscape/frequenze_gametype_row_svg-tex.pdf Graphic file (type pdf)
+
+<use ./svg-inkscape/frequenze_gametype_row_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/frequenze_gametype_row_svg-tex.pdf , pa
+ge1 used on input line 56.
+(pdftex.def)             Requested size: 271.28098pt x 216.08981pt.
+)
+Overfull \hbox (19.18687pt too wide) in paragraph at lines 39--41
+ []|  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/frequenze_gamemode_gametype_clea
+n_svg-tex.pdf' is 1 on input line 49.
+(svg-inkscape/frequenze_gamemode_gametype_clean_svg-tex.pdf_tex
+<./svg-inkscape/frequenze_gamemode_gametype_clean_svg-tex.pdf, id=151, page=1, 
+417.35927pt x 332.44202pt>
+File: ./svg-inkscape/frequenze_gamemode_gametype_clean_svg-tex.pdf Graphic file
+ (type pdf)
+<use ./svg-inkscape/frequenze_gamemode_gametype_clean_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/frequenze_gamemode_gametype_clean_svg-t
+ex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 300.49918pt x 239.36313pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 45--55
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./svg-inkscape/frequenze_gamemode_row_svg-tex.pdf> <./svg-inkscape/frequenz
+e_gametype_row_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/frequenze_gametype_row_svg-te
+x.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/frequenze_gamemode_gametype_clean_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/frequenze_gamemode_gametype_c
+lean_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a s
+ingle page
+>])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5] (datasetoriginale/datasetoriginale.tex (datasetoriginale/RQ1.tex
+Package svg Info: Last page of `./svg-inkscape/winrate_totale_svg-tex.pdf' is 1
+ on input line 5.
+
+(svg-inkscape/winrate_totale_svg-tex.pdf_tex
+<./svg-inkscape/winrate_totale_svg-tex.pdf, id=182, page=1, 503.17989pt x 384.8
+3774pt>
+File: ./svg-inkscape/winrate_totale_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/winrate_totale_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_totale_svg-tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 452.85883pt x 346.3625pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_ranked_svg-tex.pdf' is 1
+ on input line 15.
+
+(svg-inkscape/winrate_ranked_svg-tex.pdf_tex
+<./svg-inkscape/winrate_ranked_svg-tex.pdf, id=185, page=1, 503.17989pt x 384.8
+3774pt>
+File: ./svg-inkscape/winrate_ranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/winrate_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_ranked_svg-tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 427.70596pt x 327.12537pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_unranked_svg-tex.pdf' is
+ 1 on input line 18.
+
+(svg-inkscape/winrate_unranked_svg-tex.pdf_tex
+<./svg-inkscape/winrate_unranked_svg-tex.pdf, id=187, page=1, 503.17989pt x 384
+.83774pt>
+File: ./svg-inkscape/winrate_unranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/winrate_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_unranked_svg-tex.pdf , page1 us
+ed on input line 56.
+(pdftex.def)             Requested size: 427.70596pt x 327.12537pt.
+)
+
+LaTeX Warning: Float too large for page by 10.59105pt on input line 22.
+
+Package svg Info: Last page of `./svg-inkscape/distribuzione_winrate_ranked_unr
+anked_svg-tex.pdf' is 1 on input line 28.
+(svg-inkscape/distribuzione_winrate_ranked_unranked_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_winrate_ranked_unranked_svg-tex.pdf, id=193, page
+=1, 651.3334pt x 332.44202pt>
+File: ./svg-inkscape/distribuzione_winrate_ranked_unranked_svg-tex.pdf Graphic 
+file (type pdf)
+<use ./svg-inkscape/distribuzione_winrate_ranked_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_winrate_ranked_unranked_s
+vg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 488.50003pt x 249.33595pt.
+)
+Overfull \hbox (35.53214pt too wide) in paragraph at lines 28--29
+ [] 
+ []
+
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./svg-inkscape/winrate_totale_svg-tex.pdf>] (datasetoriginale/RQ2.tex
+Package svg Info: Last page of `./svg-inkscape/distribuzione_pick_hero_ranked_u
+nranked_svg-tex.pdf' is 1 on input line 10.
+
+(svg-inkscape/distribuzione_pick_hero_ranked_unranked_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_pick_hero_ranked_unranked_svg-tex.pdf, id=205, pa
+ge=1, 650.43pt x 396.58163pt>
+File: ./svg-inkscape/distribuzione_pick_hero_ranked_unranked_svg-tex.pdf Graphi
+c file (type pdf)
+<use ./svg-inkscape/distribuzione_pick_hero_ranked_unranked_svg-tex.pdf, page 1
+>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_pick_hero_ranked_unranked
+_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 585.38301pt x 356.94437pt.
+)
+Overfull \hbox (67.08379pt too wide) in paragraph at lines 9--11
+ |  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/differenza_distribuzione_pickrat
+e_svg-tex.pdf' is 1 on input line 19.
+(svg-inkscape/differenza_distribuzione_pickrate_svg-tex.pdf_tex
+<./svg-inkscape/differenza_distribuzione_pickrate_svg-tex.pdf, id=208, page=1, 
+535.70139pt x 396.58163pt>
+File: ./svg-inkscape/differenza_distribuzione_pickrate_svg-tex.pdf Graphic file
+ (type pdf)
+<use ./svg-inkscape/differenza_distribuzione_pickrate_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/differenza_distribuzione_pickrate_svg-t
+ex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 589.27475pt x 436.2472pt.
+)
+Overfull \hbox (70.97552pt too wide) in paragraph at lines 18--20
+ |  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/boxplot_pickrate_svg-tex.pdf' is
+ 1 on input line 30.
+(svg-inkscape/boxplot_pickrate_svg-tex.pdf_tex
+<./svg-inkscape/boxplot_pickrate_svg-tex.pdf, id=211, page=1, 448.97739pt x 340
+.57236pt>
+File: ./svg-inkscape/boxplot_pickrate_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/boxplot_pickrate_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/boxplot_pickrate_svg-tex.pdf , page1 us
+ed on input line 56.
+(pdftex.def)             Requested size: 404.0769pt x 306.51747pt.
+)
+Package svg Info: Last page of `./svg-inkscape/distribuzione_pick_ranked_unrank
+ed_svg-tex.pdf' is 1 on input line 39.
+
+(svg-inkscape/distribuzione_pick_ranked_unranked_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_pick_ranked_unranked_svg-tex.pdf, id=214, page=1,
+ 585.38701pt x 275.52937pt>
+File: ./svg-inkscape/distribuzione_pick_ranked_unranked_svg-tex.pdf Graphic fil
+e (type pdf)
+<use ./svg-inkscape/distribuzione_pick_ranked_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_pick_ranked_unranked_svg-
+tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 526.8447pt x 247.97833pt.
+)
+Overfull \hbox (31.18834pt too wide) in paragraph at lines 38--40
+ |  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/boxplot_winrate_svg-tex.pdf' is 
+1 on input line 76.
+(svg-inkscape/boxplot_winrate_svg-tex.pdf_tex
+<./svg-inkscape/boxplot_winrate_svg-tex.pdf, id=221, page=1, 448.97739pt x 340.
+57236pt>
+File: ./svg-inkscape/boxplot_winrate_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/boxplot_winrate_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/boxplot_winrate_svg-tex.pdf , page1 use
+d on input line 56.
+(pdftex.def)             Requested size: 404.0769pt x 306.51747pt.
+)
+Package svg Info: Last page of `./svg-inkscape/differenza_winrate_ranked_unrank
+ed_svg-tex.pdf' is 1 on input line 114.
+
+(svg-inkscape/differenza_winrate_ranked_unranked_svg-tex.pdf_tex
+<./svg-inkscape/differenza_winrate_ranked_unranked_svg-tex.pdf, id=228, page=1,
+ 713.66624pt x 396.58163pt>
+File: ./svg-inkscape/differenza_winrate_ranked_unranked_svg-tex.pdf Graphic fil
+e (type pdf)
+<use ./svg-inkscape/differenza_winrate_ranked_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/differenza_winrate_ranked_unranked_svg-
+tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 606.62065pt x 337.11412pt.
+)
+Overfull \hbox (88.32143pt too wide) in paragraph at lines 113--115
+ |  [] 
+ []
+
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./svg-inkscape/winrate_ranked_svg-tex.pdf> <./svg-inkscape/winrate_unranked
+_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/winrate_unranked_svg-tex.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9 <./svg-inkscape/distribuzione_winrate_ranked_unranked_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 <./svg-inkscape/distribuzione_pick_hero_ranked_unranked_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./svg-inkscape/differenza_distribuzione_pickrate_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12 <./svg-inkscape/boxplot_pickrate_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./svg-inkscape/distribuzione_pick_ranked_unranked_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15 <./svg-inkscape/boxplot_winrate_svg-tex.pdf>] (datasetoriginale/RQ3.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17 <./svg-inkscape/differenza_winrate_ranked_unranked_svg-tex.pdf>]
+(datasetoriginale/RQ4.tex
+Package svg Info: Last page of `./svg-inkscape/plot_winrate_pickrate_ranked_raw
+_svg-tex.pdf' is 1 on input line 4.
+
+(svg-inkscape/plot_winrate_pickrate_ranked_raw_svg-tex.pdf_tex
+<./svg-inkscape/plot_winrate_pickrate_ranked_raw_svg-tex.pdf, id=331, page=1, 4
+84.209pt x 370.38374pt>
+File: ./svg-inkscape/plot_winrate_pickrate_ranked_raw_svg-tex.pdf Graphic file 
+(type pdf)
+<use ./svg-inkscape/plot_winrate_pickrate_ranked_raw_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/plot_winrate_pickrate_ranked_raw_svg-te
+x.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 363.15674pt x 277.79842pt.
+)
+Package svg Info: Last page of `./svg-inkscape/plot_winrate_pickrate_unranked_r
+aw_svg-tex.pdf' is 1 on input line 7.
+
+(svg-inkscape/plot_winrate_pickrate_unranked_raw_svg-tex.pdf_tex
+<./svg-inkscape/plot_winrate_pickrate_unranked_raw_svg-tex.pdf, id=333, page=1,
+ 467.94823pt x 369.48038pt>
+File: ./svg-inkscape/plot_winrate_pickrate_unranked_raw_svg-tex.pdf Graphic fil
+e (type pdf)
+<use ./svg-inkscape/plot_winrate_pickrate_unranked_raw_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/plot_winrate_pickrate_unranked_raw_svg-
+tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 350.96117pt x 277.11523pt.
+)
+Package svg Info: Last page of `./svg-inkscape/correlazione_winrate_pickrate_ra
+nked_svg-tex.pdf' is 1 on input line 18.
+
+(svg-inkscape/correlazione_winrate_pickrate_ranked_svg-tex.pdf_tex
+<./svg-inkscape/correlazione_winrate_pickrate_ranked_svg-tex.pdf, id=339, page=
+1, 470.65837pt x 365.86688pt>
+File: ./svg-inkscape/correlazione_winrate_pickrate_ranked_svg-tex.pdf Graphic f
+ile (type pdf)
+<use ./svg-inkscape/correlazione_winrate_pickrate_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/correlazione_winrate_pickrate_ranked_sv
+g-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 235.32918pt x 182.93298pt.
+)
+Package svg Info: Last page of `./svg-inkscape/correlazione_winrate_pickrate_un
+ranked_svg-tex.pdf' is 1 on input line 22.
+
+(svg-inkscape/correlazione_winrate_pickrate_unranked_svg-tex.pdf_tex
+<./svg-inkscape/correlazione_winrate_pickrate_unranked_svg-tex.pdf, id=341, pag
+e=1, 470.65837pt x 365.86688pt>
+File: ./svg-inkscape/correlazione_winrate_pickrate_unranked_svg-tex.pdf Graphic
+ file (type pdf)
+<use ./svg-inkscape/correlazione_winrate_pickrate_unranked_svg-tex.pdf, page 1>
+
+Package pdftex.def Info: ./svg-inkscape/correlazione_winrate_pickrate_unranked_
+svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 235.32918pt x 182.93298pt.
+)
+Package svg Info: Last page of `./svg-inkscape/spline_ranked_svg-tex.pdf' is 1 
+on input line 33.
+
+(svg-inkscape/spline_ranked_svg-tex.pdf_tex
+<./svg-inkscape/spline_ranked_svg-tex.pdf, id=345, page=1, 463.43135pt x 370.38
+374pt>
+File: ./svg-inkscape/spline_ranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/spline_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/spline_ranked_svg-tex.pdf , page1 used 
+on input line 56.
+(pdftex.def)             Requested size: 278.06163pt x 222.24326pt.
+)
+Overfull \hbox (14.89265pt too wide) in paragraph at lines 32--34
+ []|  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/spline_unranked_svg-tex.pdf' is 
+1 on input line 37.
+(svg-inkscape/spline_unranked_svg-tex.pdf_tex
+<./svg-inkscape/spline_unranked_svg-tex.pdf, id=347, page=1, 463.43135pt x 370.
+38374pt>
+File: ./svg-inkscape/spline_unranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/spline_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/spline_unranked_svg-tex.pdf , page1 use
+d on input line 56.
+(pdftex.def)             Requested size: 278.06163pt x 222.24326pt.
+)
+Overfull \hbox (37.03903pt too wide) in paragraph at lines 36--38
+ []|  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/gpr_ranked_svg-tex.pdf' is 1 on 
+input line 48.
+(svg-inkscape/gpr_ranked_svg-tex.pdf_tex
+<./svg-inkscape/gpr_ranked_svg-tex.pdf, id=351, page=1, 463.43135pt x 370.38374
+pt>
+File: ./svg-inkscape/gpr_ranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gpr_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/gpr_ranked_svg-tex.pdf , page1 used on 
+input line 56.
+(pdftex.def)             Requested size: 278.06163pt x 222.24326pt.
+)
+Overfull \hbox (14.89265pt too wide) in paragraph at lines 47--49
+ []|  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/gpr_unranked_svg-tex.pdf' is 1 o
+n input line 52.
+(svg-inkscape/gpr_unranked_svg-tex.pdf_tex
+<./svg-inkscape/gpr_unranked_svg-tex.pdf, id=353, page=1, 463.43135pt x 370.383
+74pt>
+File: ./svg-inkscape/gpr_unranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gpr_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/gpr_unranked_svg-tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 278.06163pt x 222.24326pt.
+)
+Overfull \hbox (37.03903pt too wide) in paragraph at lines 51--53
+ []|  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/plot_winrate_pickrate_ranked_svg
+-tex.pdf' is 1 on input line 63.
+(svg-inkscape/plot_winrate_pickrate_ranked_svg-tex.pdf_tex
+<./svg-inkscape/plot_winrate_pickrate_ranked_svg-tex.pdf, id=357, page=1, 484.2
+09pt x 370.38374pt>
+File: ./svg-inkscape/plot_winrate_pickrate_ranked_svg-tex.pdf Graphic file (typ
+e pdf)
+<use ./svg-inkscape/plot_winrate_pickrate_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/plot_winrate_pickrate_ranked_svg-tex.pd
+f , page1 used on input line 56.
+(pdftex.def)             Requested size: 338.94481pt x 259.27814pt.
+)
+Package svg Info: Last page of `./svg-inkscape/plot_winrate_pickrate_unranked_s
+vg-tex.pdf' is 1 on input line 66.
+
+(svg-inkscape/plot_winrate_pickrate_unranked_svg-tex.pdf_tex
+<./svg-inkscape/plot_winrate_pickrate_unranked_svg-tex.pdf, id=359, page=1, 484
+.209pt x 370.38374pt>
+File: ./svg-inkscape/plot_winrate_pickrate_unranked_svg-tex.pdf Graphic file (t
+ype pdf)
+<use ./svg-inkscape/plot_winrate_pickrate_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/plot_winrate_pickrate_unranked_svg-tex.
+pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 338.94481pt x 259.27814pt.
+))
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19 <./svg-inkscape/plot_winrate_pickrate_ranked_raw_svg-tex.pdf> <./svg-inksca
+pe/plot_winrate_pickrate_unranked_raw_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/plot_winrate_pickrate_unranke
+d_raw_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./svg-inkscape/correlazione_winrate_pickrate_ranked_svg-tex.pdf> <./svg-in
+kscape/correlazione_winrate_pickrate_unranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/correlazione_winrate_pickrate
+_unranked_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21 <./svg-inkscape/spline_ranked_svg-tex.pdf> <./svg-inkscape/spline_unranked_
+svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/spline_unranked_svg-tex.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/gpr_ranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/gpr_ranked_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/gpr_unranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/gpr_unranked_svg-tex.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>] (datasetoriginale/RQ5.tex
+Package svg Info: Last page of `./svg-inkscape/pickrate_attributi_ranked_svg-te
+x.pdf' is 1 on input line 6.
+
+(svg-inkscape/pickrate_attributi_ranked_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_attributi_ranked_svg-tex.pdf, id=456, page=1, 355.9297
+5pt x 291.79013pt>
+File: ./svg-inkscape/pickrate_attributi_ranked_svg-tex.pdf Graphic file (type p
+df)
+<use ./svg-inkscape/pickrate_attributi_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_attributi_ranked_svg-tex.pdf ,
+ page1 used on input line 56.
+(pdftex.def)             Requested size: 213.56pt x 175.07542pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_attributi_ranked_svg-tex
+.pdf' is 1 on input line 10.
+
+(svg-inkscape/winrate_attributi_ranked_svg-tex.pdf_tex
+<./svg-inkscape/winrate_attributi_ranked_svg-tex.pdf, id=458, page=1, 355.92975
+pt x 291.79013pt>
+File: ./svg-inkscape/winrate_attributi_ranked_svg-tex.pdf Graphic file (type pd
+f)
+<use ./svg-inkscape/winrate_attributi_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_attributi_ranked_svg-tex.pdf , 
+page1 used on input line 56.
+(pdftex.def)             Requested size: 213.56pt x 175.07542pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1--16
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./svg-inkscape/plot_winrate_pickrate_ranked_svg-tex.pdf> <./svg-inkscape/p
+lot_winrate_pickrate_unranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/plot_winrate_pickrate_unranke
+d_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>]
+Package svg Info: Last page of `./svg-inkscape/pickrate_total_ranked_svg-tex.pd
+f' is 1 on input line 28.
+ (svg-inkscape/pickrate_total_ranked_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_total_ranked_svg-tex.pdf, id=542, page=1, 498.66302pt 
+x 396.58163pt>
+File: ./svg-inkscape/pickrate_total_ranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/pickrate_total_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_total_ranked_svg-tex.pdf , pag
+e1 used on input line 56.
+(pdftex.def)             Requested size: 448.79366pt x 356.92017pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_total_ranked_svg-tex.pdf
+' is 1 on input line 39.
+
+(svg-inkscape/winrate_total_ranked_svg-tex.pdf_tex
+<./svg-inkscape/winrate_total_ranked_svg-tex.pdf, id=547, page=1, 498.66302pt x
+ 396.58163pt>
+File: ./svg-inkscape/winrate_total_ranked_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/winrate_total_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_total_ranked_svg-tex.pdf , page
+1 used on input line 56.
+(pdftex.def)             Requested size: 448.79366pt x 356.92017pt.
+)
+Package svg Info: Last page of `./svg-inkscape/pickrate_attributi_unranked_svg-
+tex.pdf' is 1 on input line 50.
+
+(svg-inkscape/pickrate_attributi_unranked_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_attributi_unranked_svg-tex.pdf, id=552, page=1, 355.92
+975pt x 291.79013pt>
+File: ./svg-inkscape/pickrate_attributi_unranked_svg-tex.pdf Graphic file (type
+ pdf)
+<use ./svg-inkscape/pickrate_attributi_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_attributi_unranked_svg-tex.pdf
+ , page1 used on input line 56.
+(pdftex.def)             Requested size: 213.56pt x 175.07542pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_attributi_unranked_svg-t
+ex.pdf' is 1 on input line 54.
+
+(svg-inkscape/winrate_attributi_unranked_svg-tex.pdf_tex
+<./svg-inkscape/winrate_attributi_unranked_svg-tex.pdf, id=554, page=1, 355.929
+75pt x 291.79013pt>
+File: ./svg-inkscape/winrate_attributi_unranked_svg-tex.pdf Graphic file (type 
+pdf)
+<use ./svg-inkscape/winrate_attributi_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_attributi_unranked_svg-tex.pdf 
+, page1 used on input line 56.
+(pdftex.def)             Requested size: 213.56pt x 175.07542pt.
+)
+Package svg Info: Last page of `./svg-inkscape/pickrate_total_unranked_svg-tex.
+pdf' is 1 on input line 63.
+
+(svg-inkscape/pickrate_total_unranked_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_total_unranked_svg-tex.pdf, id=557, page=1, 498.66302p
+t x 396.58163pt>
+File: ./svg-inkscape/pickrate_total_unranked_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/pickrate_total_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_total_unranked_svg-tex.pdf , p
+age1 used on input line 56.
+(pdftex.def)             Requested size: 448.79366pt x 356.92017pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_total_unranked_svg-tex.p
+df' is 1 on input line 70.
+
+(svg-inkscape/winrate_total_unranked_svg-tex.pdf_tex
+<./svg-inkscape/winrate_total_unranked_svg-tex.pdf, id=559, page=1, 498.66302pt
+ x 396.58163pt>
+File: ./svg-inkscape/winrate_total_unranked_svg-tex.pdf Graphic file (type pdf)
+
+<use ./svg-inkscape/winrate_total_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_total_unranked_svg-tex.pdf , pa
+ge1 used on input line 56.
+(pdftex.def)             Requested size: 398.93192pt x 317.26573pt.
+))
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./svg-inkscape/pickrate_attributi_ranked_svg-tex.pdf> <./svg-inkscape/winr
+ate_attributi_ranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/winrate_attributi_ranked_svg-
+tex.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./svg-inkscape/pickrate_total_ranked_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./svg-inkscape/winrate_total_ranked_svg-tex.pdf> <./svg-inkscape/pickrate_
+attributi_unranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/pickrate_attributi_unranked_s
+vg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+> <./svg-inkscape/winrate_attributi_unranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/winrate_attributi_unranked_sv
+g-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>] (datasetoriginale/RQ6.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./svg-inkscape/pickrate_total_unranked_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29 <./svg-inkscape/winrate_total_unranked_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30] (datasetoriginale/RQ7.tex
+Package svg Info: Last page of `./svg-inkscape/distribuzione_elo_ranked_svg-tex
+.pdf' is 1 on input line 12.
+
+(svg-inkscape/distribuzione_elo_ranked_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_elo_ranked_svg-tex.pdf, id=625, page=1, 406.51875
+pt x 274.626pt>
+File: ./svg-inkscape/distribuzione_elo_ranked_svg-tex.pdf Graphic file (type pd
+f)
+<use ./svg-inkscape/distribuzione_elo_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_elo_ranked_svg-tex.pdf , 
+page1 used on input line 56.
+(pdftex.def)             Requested size: 284.56187pt x 192.24525pt.
+)
+Overfull \hbox (39.11203pt too wide) in paragraph at lines 11--13
+ []|  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/distribuzione_elo_unranked_svg-t
+ex.pdf' is 1 on input line 16.
+(svg-inkscape/distribuzione_elo_unranked_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_elo_unranked_svg-tex.pdf, id=627, page=1, 406.518
+75pt x 274.626pt>
+File: ./svg-inkscape/distribuzione_elo_unranked_svg-tex.pdf Graphic file (type 
+pdf)
+<use ./svg-inkscape/distribuzione_elo_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_elo_unranked_svg-tex.pdf 
+, page1 used on input line 56.
+(pdftex.def)             Requested size: 284.56187pt x 192.24525pt.
+)
+Overfull \hbox (43.53928pt too wide) in paragraph at lines 15--17
+ []|  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--25
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33 <./svg-inkscape/distribuzione_elo_ranked_svg-tex.pdf> <./svg-inkscape/distr
+ibuzione_elo_unranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/distribuzione_elo_unranked_sv
+g-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>]))
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34] (datasetsintetico/datasetsintetico.tex (datasetsintetico/RQ1sint.tex
+Package svg Info: Last page of `./svg-inkscape/distribuzione_winrate_svg-tex.pd
+f' is 1 on input line 4.
+
+(svg-inkscape/distribuzione_winrate_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_winrate_svg-tex.pdf, id=737, page=1, 411.03563pt 
+x 311.66437pt>
+File: ./svg-inkscape/distribuzione_winrate_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/distribuzione_winrate_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_winrate_svg-tex.pdf , pag
+e1 used on input line 56.
+(pdftex.def)             Requested size: 369.92953pt x 280.49533pt.
+)
+Package svg Info: Last page of `./svg-inkscape/frequenze_winrate_ranked_svg-tex
+.pdf' is 1 on input line 12.
+
+(svg-inkscape/frequenze_winrate_ranked_svg-tex.pdf_tex
+<./svg-inkscape/frequenze_winrate_ranked_svg-tex.pdf, id=740, page=1, 411.03563
+pt x 311.66437pt>
+File: ./svg-inkscape/frequenze_winrate_ranked_svg-tex.pdf Graphic file (type pd
+f)
+<use ./svg-inkscape/frequenze_winrate_ranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/frequenze_winrate_ranked_svg-tex.pdf , 
+page1 used on input line 56.
+(pdftex.def)             Requested size: 349.38277pt x 264.91595pt.
+)
+Package svg Info: Last page of `./svg-inkscape/frequenze_winrate_unranked_svg-t
+ex.pdf' is 1 on input line 15.
+
+(svg-inkscape/frequenze_winrate_unranked_svg-tex.pdf_tex
+<./svg-inkscape/frequenze_winrate_unranked_svg-tex.pdf, id=742, page=1, 411.035
+63pt x 311.66437pt>
+File: ./svg-inkscape/frequenze_winrate_unranked_svg-tex.pdf Graphic file (type 
+pdf)
+<use ./svg-inkscape/frequenze_winrate_unranked_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/frequenze_winrate_unranked_svg-tex.pdf 
+, page1 used on input line 56.
+(pdftex.def)             Requested size: 349.38277pt x 264.91595pt.
+)
+Package svg Info: Last page of `./svg-inkscape/distribuzione_winrate_ranked_unr
+anked_sintetico_svg-tex.pdf' is 1 on input line 24.
+
+(svg-inkscape/distribuzione_winrate_ranked_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_winrate_ranked_unranked_sintetico_svg-tex.pdf, id
+=747, page=1, 506.79337pt x 311.66437pt>
+File: ./svg-inkscape/distribuzione_winrate_ranked_unranked_sintetico_svg-tex.pd
+f Graphic file (type pdf)
+<use ./svg-inkscape/distribuzione_winrate_ranked_unranked_sintetico_svg-tex.pdf
+, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_winrate_ranked_unranked_s
+intetico_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 380.09503pt x 233.75246pt.
+)) (datasetsintetico/RQ2sint.tex
+Package svg Info: Last page of `./svg-inkscape/frequenze_pickrate_ranked_unrank
+ed_sintetico_svg-tex.pdf' is 1 on input line 9.
+
+(svg-inkscape/frequenze_pickrate_ranked_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/frequenze_pickrate_ranked_unranked_sintetico_svg-tex.pdf, id=75
+4, page=1, 411.03563pt x 311.66437pt>
+File: ./svg-inkscape/frequenze_pickrate_ranked_unranked_sintetico_svg-tex.pdf G
+raphic file (type pdf)
+<use ./svg-inkscape/frequenze_pickrate_ranked_unranked_sintetico_svg-tex.pdf, p
+age 1>
+Package pdftex.def Info: ./svg-inkscape/frequenze_pickrate_ranked_unranked_sint
+etico_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 369.92953pt x 280.49533pt.
+)
+Package svg Info: Last page of `./svg-inkscape/differenza_pickrate_ranked_unran
+ked_sintetico_svg-tex.pdf' is 1 on input line 17.
+
+(svg-inkscape/differenza_pickrate_ranked_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/differenza_pickrate_ranked_unranked_sintetico_svg-tex.pdf, id=7
+56, page=1, 364.06013pt x 308.05087pt>
+File: ./svg-inkscape/differenza_pickrate_ranked_unranked_sintetico_svg-tex.pdf 
+Graphic file (type pdf)
+<use ./svg-inkscape/differenza_pickrate_ranked_unranked_sintetico_svg-tex.pdf, 
+page 1>
+Package pdftex.def Info: ./svg-inkscape/differenza_pickrate_ranked_unranked_sin
+tetico_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 400.46837pt x 338.8805pt.
+)
+Package svg Info: Last page of `./svg-inkscape/boxplot_new_sintetico_svg-tex.pd
+f' is 1 on input line 25.
+
+(svg-inkscape/boxplot_new_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/boxplot_new_sintetico_svg-tex.pdf, id=758, page=1, 378.51413pt 
+x 349.60611pt>
+File: ./svg-inkscape/boxplot_new_sintetico_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/boxplot_new_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/boxplot_new_sintetico_svg-tex.pdf , pag
+e1 used on input line 56.
+(pdftex.def)             Requested size: 340.66039pt x 314.65324pt.
+)
+Package svg Info: Last page of `./svg-inkscape/boxplot_winrate_sintetico_svg-te
+x.pdf' is 1 on input line 60.
+
+(svg-inkscape/boxplot_winrate_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/boxplot_winrate_sintetico_svg-tex.pdf, id=764, page=1, 411.0356
+3pt x 311.66437pt>
+File: ./svg-inkscape/boxplot_winrate_sintetico_svg-tex.pdf Graphic file (type p
+df)
+<use ./svg-inkscape/boxplot_winrate_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/boxplot_winrate_sintetico_svg-tex.pdf ,
+ page1 used on input line 56.
+(pdftex.def)             Requested size: 369.92953pt x 280.49533pt.
+)
+Package svg Info: Last page of `./svg-inkscape/differenza_winrate_ranked_unrank
+ed_sintetico_svg-tex.pdf' is 1 on input line 92.
+
+(svg-inkscape/differenza_winrate_ranked_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/differenza_winrate_ranked_unranked_sintetico_svg-tex.pdf, id=76
+6, page=1, 411.03563pt x 311.66437pt>
+File: ./svg-inkscape/differenza_winrate_ranked_unranked_sintetico_svg-tex.pdf G
+raphic file (type pdf)
+<use ./svg-inkscape/differenza_winrate_ranked_unranked_sintetico_svg-tex.pdf, p
+age 1>
+Package pdftex.def Info: ./svg-inkscape/differenza_winrate_ranked_unranked_sint
+etico_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 369.92953pt x 280.49533pt.
+))
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35 <./svg-inkscape/distribuzione_winrate_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./svg-inkscape/frequenze_winrate_ranked_svg-tex.pdf> <./svg-inkscape/frequ
+enze_winrate_unranked_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/frequenze_winrate_unranked_sv
+g-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37 <./svg-inkscape/distribuzione_winrate_ranked_unranked_sintetico_svg-tex.pdf
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38 <./svg-inkscape/frequenze_pickrate_ranked_unranked_sintetico_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./svg-inkscape/differenza_pickrate_ranked_unranked_sintetico_svg-tex.pdf>]
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40 <./svg-inkscape/boxplot_new_sintetico_svg-tex.pdf>]
+(datasetsintetico/RQ3sint.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41 <./svg-inkscape/boxplot_winrate_sintetico_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42 <./svg-inkscape/differenza_winrate_ranked_unranked_sintetico_svg-tex.pdf>]
+(datasetsintetico/RQ4sint.tex
+Package svg Info: Last page of `./svg-inkscape/plot_winrate_pickrate_ranked_sin
+tetico_svg-tex.pdf' is 1 on input line 4.
+
+(svg-inkscape/plot_winrate_pickrate_ranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/plot_winrate_pickrate_ranked_sintetico_svg-tex.pdf, id=854, pag
+e=1, 364.06013pt x 308.05087pt>
+File: ./svg-inkscape/plot_winrate_pickrate_ranked_sintetico_svg-tex.pdf Graphic
+ file (type pdf)
+<use ./svg-inkscape/plot_winrate_pickrate_ranked_sintetico_svg-tex.pdf, page 1>
+
+Package pdftex.def Info: ./svg-inkscape/plot_winrate_pickrate_ranked_sintetico_
+svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 273.04509pt x 231.05168pt.
+)
+Package svg Info: Last page of `./svg-inkscape/plot_winrate_pickrate_unranked_s
+intetico_svg-tex.pdf' is 1 on input line 7.
+
+(svg-inkscape/plot_winrate_pickrate_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/plot_winrate_pickrate_unranked_sintetico_svg-tex.pdf, id=856, p
+age=1, 364.06013pt x 308.05087pt>
+File: ./svg-inkscape/plot_winrate_pickrate_unranked_sintetico_svg-tex.pdf Graph
+ic file (type pdf)
+<use ./svg-inkscape/plot_winrate_pickrate_unranked_sintetico_svg-tex.pdf, page 
+1>
+Package pdftex.def Info: ./svg-inkscape/plot_winrate_pickrate_unranked_sintetic
+o_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 273.04509pt x 231.05168pt.
+))
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44 <./svg-inkscape/plot_winrate_pickrate_ranked_sintetico_svg-tex.pdf> <./svg-
+inkscape/plot_winrate_pickrate_unranked_sintetico_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/plot_winrate_pickrate_unranke
+d_sintetico_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included
+ in a single page
+>] (datasetsintetico/RQ5sint.tex
+
+Package svg Warning: Since the encountered filedate of file
+(svg)                `./svg-inkscape/pickrate_attributi_ranked_sintetico_svg-te
+x.pdf_tex' is newer than 
+(svg)                `./svg-inkscape/pickrate_attributi_ranked_sintetico_svg-te
+x.pdf' it's supposed that
+(svg)                you customized this file. To avoid an accidental
+(svg)                overwriting of this file, the Inkscape export
+(svg)                won't be done. If you want to overwrite the
+(svg)                existing file please choose the parameter
+(svg)                `inkscape=force' on input line 6.
+
+Package svg Info: Last page of `./svg-inkscape/pickrate_attributi_ranked_sintet
+ico_svg-tex.pdf' is 1 on input line 6.
+(svg-inkscape/pickrate_attributi_ranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_attributi_ranked_sintetico_svg-tex.pdf, id=949, page=1
+, 364.06013pt x 308.05087pt>
+File: ./svg-inkscape/pickrate_attributi_ranked_sintetico_svg-tex.pdf Graphic fi
+le (type pdf)
+<use ./svg-inkscape/pickrate_attributi_ranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_attributi_ranked_sintetico_svg
+-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 218.4383pt x 184.83664pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_attributi_ranked_sinteti
+co_svg-tex.pdf' is 1 on input line 10.
+
+(svg-inkscape/winrate_attributi_ranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/winrate_attributi_ranked_sintetico_svg-tex.pdf, id=951, page=1,
+ 317.08463pt x 326.11836pt>
+File: ./svg-inkscape/winrate_attributi_ranked_sintetico_svg-tex.pdf Graphic fil
+e (type pdf)
+<use ./svg-inkscape/winrate_attributi_ranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_attributi_ranked_sintetico_svg-
+tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 190.2527pt x 195.67253pt.
+)
+Package svg Info: Last page of `./svg-inkscape/pickrate_total_ranked_sintetico_
+svg-tex.pdf' is 1 on input line 18.
+
+(svg-inkscape/pickrate_total_ranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_total_ranked_sintetico_svg-tex.pdf, id=954, page=1, 39
+8.38837pt x 368.57701pt>
+File: ./svg-inkscape/pickrate_total_ranked_sintetico_svg-tex.pdf Graphic file (
+type pdf)
+<use ./svg-inkscape/pickrate_total_ranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_total_ranked_sintetico_svg-tex
+.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 358.5471pt x 331.72185pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_total_ranked_sintetico_s
+vg-tex.pdf' is 1 on input line 26.
+
+(svg-inkscape/winrate_total_ranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/winrate_total_ranked_sintetico_svg-tex.pdf, id=957, page=1, 495
+.04948pt x 376.70737pt>
+File: ./svg-inkscape/winrate_total_ranked_sintetico_svg-tex.pdf Graphic file (t
+ype pdf)
+<use ./svg-inkscape/winrate_total_ranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_total_ranked_sintetico_svg-tex.
+pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 445.54149pt x 339.04498pt.
+)
+Package svg Info: Last page of `./svg-inkscape/pickrate_attributi_unranked_sint
+etico_svg-tex.pdf' is 1 on input line 37.
+
+(svg-inkscape/pickrate_attributi_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_attributi_unranked_sintetico_svg-tex.pdf, id=963, page
+=1, 425.48962pt x 365.86688pt>
+File: ./svg-inkscape/pickrate_attributi_unranked_sintetico_svg-tex.pdf Graphic 
+file (type pdf)
+<use ./svg-inkscape/pickrate_attributi_unranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_attributi_unranked_sintetico_s
+vg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 255.29636pt x 219.52182pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_attributi_unranked_sinte
+tico_svg-tex.pdf' is 1 on input line 41.
+
+(svg-inkscape/winrate_attributi_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/winrate_attributi_unranked_sintetico_svg-tex.pdf, id=965, page=
+1, 345.99263pt x 370.38374pt>
+File: ./svg-inkscape/winrate_attributi_unranked_sintetico_svg-tex.pdf Graphic f
+ile (type pdf)
+<use ./svg-inkscape/winrate_attributi_unranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_attributi_unranked_sintetico_sv
+g-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 207.59769pt x 222.23195pt.
+)
+Package svg Info: Last page of `./svg-inkscape/pickrate_total_unranked_sintetic
+o_svg-tex.pdf' is 1 on input line 48.
+
+(svg-inkscape/pickrate_total_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/pickrate_total_unranked_sintetico_svg-tex.pdf, id=967, page=1, 
+419.166pt x 370.38374pt>
+File: ./svg-inkscape/pickrate_total_unranked_sintetico_svg-tex.pdf Graphic file
+ (type pdf)
+<use ./svg-inkscape/pickrate_total_unranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/pickrate_total_unranked_sintetico_svg-t
+ex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 377.24683pt x 333.34793pt.
+)
+Package svg Info: Last page of `./svg-inkscape/winrate_total_unranked_sintetico
+_svg-tex.pdf' is 1 on input line 55.
+
+(svg-inkscape/winrate_total_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/winrate_total_unranked_sintetico_svg-tex.pdf, id=969, page=1, 5
+15.82715pt x 370.38374pt>
+File: ./svg-inkscape/winrate_total_unranked_sintetico_svg-tex.pdf Graphic file 
+(type pdf)
+<use ./svg-inkscape/winrate_total_unranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/winrate_total_unranked_sintetico_svg-te
+x.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 464.24126pt x 333.34793pt.
+)
+Overfull \hbox (11.27336pt too wide) in paragraph at lines 55--56
+ [] 
+ []
+
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./svg-inkscape/pickrate_attributi_ranked_sintetico_svg-tex.pdf> <./svg-ink
+scape/winrate_attributi_ranked_sintetico_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/winrate_attributi_ranked_sint
+etico_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46 <./svg-inkscape/pickrate_total_ranked_sintetico_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47 <./svg-inkscape/winrate_total_ranked_sintetico_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48 <./svg-inkscape/pickrate_attributi_unranked_sintetico_svg-tex.pdf> <./svg-i
+nkscape/winrate_attributi_unranked_sintetico_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/winrate_attributi_unranked_si
+ntetico_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49 <./svg-inkscape/pickrate_total_unranked_sintetico_svg-tex.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50 <./svg-inkscape/winrate_total_unranked_sintetico_svg-tex.pdf>]
+(datasetsintetico/RQ6sint.tex) (datasetsintetico/RQ7sint.tex
+Package svg Info: Last page of `./svg-inkscape/distribuzione_elo_ranked_sinteti
+co_svg-tex.pdf' is 1 on input line 8.
+
+(svg-inkscape/distribuzione_elo_ranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_elo_ranked_sintetico_svg-tex.pdf, id=1030, page=1
+, 344.18587pt x 376.70737pt>
+File: ./svg-inkscape/distribuzione_elo_ranked_sintetico_svg-tex.pdf Graphic fil
+e (type pdf)
+<use ./svg-inkscape/distribuzione_elo_ranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_elo_ranked_sintetico_svg-
+tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 240.92906pt x 263.6991pt.
+)
+Package svg Info: Last page of `./svg-inkscape/distribuzione_elo_unranked_sinte
+tico_svg-tex.pdf' is 1 on input line 12.
+
+(svg-inkscape/distribuzione_elo_unranked_sintetico_svg-tex.pdf_tex
+<./svg-inkscape/distribuzione_elo_unranked_sintetico_svg-tex.pdf, id=1032, page
+=1, 344.18587pt x 376.70737pt>
+File: ./svg-inkscape/distribuzione_elo_unranked_sintetico_svg-tex.pdf Graphic f
+ile (type pdf)
+<use ./svg-inkscape/distribuzione_elo_unranked_sintetico_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/distribuzione_elo_unranked_sintetico_sv
+g-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 240.92906pt x 263.6991pt.
+))
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52 <./svg-inkscape/distribuzione_elo_ranked_sintetico_svg-tex.pdf> <./svg-inks
+cape/distribuzione_elo_unranked_sintetico_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/distribuzione_elo_unranked_si
+ntetico_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5D727C094E446EAFC28E1615EB7DABDE;6221.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 39403 strings out of 473535
+ 776539 string characters out of 5728878
+ 1640065 words of memory out of 5000000
+ 61495 multiletter control sequences out of 15000+600000
+ 573791 words of font info for 157 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 95i,12n,117p,1614b,1790s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Tonaion\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1200.pk><C:/utils/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/utils/
+miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/utils/miktex/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/utils/miktex/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/utils/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/utils/mik
+tex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/utils/miktex/fonts/type1/public
+/amsfonts/cm/cmsl12.pfb><C:/utils/miktex/fonts/type1/public/amsfonts/cm/cmss17.
+pfb><C:/utils/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/utils/miktex
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/utils/miktex/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><C:/utils/miktex/fonts/type1/public/amsfonts/cm/cmti12.pf
+b><C:/utils/miktex/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (55 pages, 3063103 bytes).
+PDF statistics:
+ 1233 PDF objects out of 1440 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 34017 words of extra memory for PDF output out of 35830 (max. 10000000)
+
